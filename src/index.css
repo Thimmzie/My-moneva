@@ -1,0 +1,12 @@
+@font-face {
+  font-family: Gilroy;
+  src: url('../src/assets/font/Gilroy-Regular.otf');
+}
+@import 'tailwindcss';
+
+@theme {
+  --color-purple: #8a66f1;
+}
+body {
+  font-family: Gilroy, 'sans-serif';
+}
