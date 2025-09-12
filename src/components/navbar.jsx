@@ -42,8 +42,8 @@ const navbar = () => {
     setNav(!nav);
   };
   return (
-    <header className=" bg-[url('./assets/images/mobilebg.png')] w-max-[1240px] bg-no-repeat bg-cover px-8 pt-8 lg:px-50 xl:px-74 lg:bg-[url('./assets/images/desktopbg.png')] ">
-      <nav className="backdrop-blur flex justify-between bg-[#ffffff] z-10 py-4.5 px-6 rounded-full mt-2.5 sticky top-0 xl:py-3">
+    <header className=" bg-[url('./assets/images/mobilebg.png')] w-max-[1240px] bg-no-repeat bg-cover px-8 pt-8 lg:px-50 md:px-15 xl:px-74 lg:bg-[url('./assets/images/desktopbg.png')] ">
+      <nav className="backdrop-blur flex justify-between bg-[#ffffff] z-10 py-4.5 px-6 rounded-full mt-2.5 sticky top-0 xl:py-3 md:">
         <img className="object-none" src={Sitelogo} alt="/" />
         <div className="hidden lg:flex xl:text-[0.9rem]">
           <ul className="flex gap-6 items-center text-[#616161]">
