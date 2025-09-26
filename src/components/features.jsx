@@ -87,7 +87,7 @@ const Features = () => {
             <br className="block lg:hidden" /> you
             <br className="hidden lg:flex" /> manage your money
           </h2>
-          <p className="text-[#8f8f8f] text-center text-[1rem] md:text-[1.2rem] lg:text-[1rem] xl:text-[1rem] maximize font-bold lg:font-light">
+          <p className="text-[#8f8f8f] text-center text-[1rem] md:text-[1.2rem] lg:text-[1.1rem] xl:text-[1rem] maximize font-bold lg:font-light">
             Maximize your finances with our user friendly
             <br className="block lg:hidden" /> features that help
             <br className="hidden lg:flex" /> you track and manage your
@@ -97,7 +97,7 @@ const Features = () => {
       </div>
 
       <div className="mt-7 flex flex-col items-center gap-5 md:gap-10 lg:gap-0 mb-50 ">
-        <div className="bg-[#ede8fd] min-h-[100vh] w-[100vw] px-4 pt-7 lg:pt-12 md:px-8 md:mx-14 flex flex-col lg:flex-row md:flex-row md:gap-7 lg:justify-center lg:gap-25 lg:px-12 content-box lg:w-[80vw] ">
+        <div className="bg-[#ede8fd] min-h-[100vh] w-[90vw] px-4 pt-7 lg:pt-12 md:px-8 md:mx-14 flex flex-col lg:flex-row md:flex-row md:gap-7 lg:justify-center lg:gap-25 lg:px-12 content-box lg:w-[80vw] ">
           <div>
             <h1 className="text-[8rem] text-[#8a66f1] font-extrabold sm:text-[10rem] lg:text-[20rem]">
               01
@@ -105,10 +105,10 @@ const Features = () => {
           </div>
           <div>
             <div className="md:flex md:flex-col md:items-center ">
-              <h2 className="text-[#595959] text-[1.4rem] font-bold tracking-wide md:text-[1.25rem] md:mt-20 lg:mt-10 md:text-center lg:text-[1.3rem] ">
+              <h2 className="text-[#595959] text-[1.3rem] font-bold tracking-wide md:text-[1.3rem] md:mt-20 lg:mt-10 md:text-center lg:text-[1.3rem] ">
                 Budgeting Made Easy
               </h2>
-              <p className="text-[#8f8f8f] font-bold lg:font-light mt-3.5 text-[1.1rem] tracking-wide md:text-[1.1rem] lg:text-[0.8rem]">
+              <p className="text-[#8f8f8f] font-bold lg:font-light mt-3.5 text-[1.1rem] tracking-wide md:text-[1rem] lg:text-[1rem]">
                 Track your spending by category and
                 <br className="hidden md:block"></br> set spending
                 <br className="hidden"></br> limits with progress alerts
@@ -143,13 +143,13 @@ const Features = () => {
           </div>
           <div>
             <div className="md:flex md:flex-col md:items-center">
-              <h2 className="text-[#595959] text-[1.1rem] font-bold tracking-wide md:text-[1.25rem] lg:text-[1.3rem] md:mt-20">
+              <h2 className="text-[#595959] text-[1.3rem] font-bold tracking-wide md:text-[1.3rem] lg:text-[1.3rem] md:mt-20">
                 Savings Goals
               </h2>
-              <p className="text-[#8f8f8f] font-light mt-3.5 text-[0.9rem] tracking-wide md:text-[1.1rem] lg:text-[0.8rem]">
+              <p className="text-[#8f8f8f] font-bold lg:font-light mt-3.5 text-[1.1rem] tracking-wide md:text-[1.2rem] lg:text-[1rem]">
                 Set and track your savings with
                 <br className="hidden md:block"></br> personalized
-                <br className="md:hidden"></br> recommendations to
+                <br className="hidden"></br> recommendations to
                 <br className="hidden md:block"></br> stay on target
               </p>
             </div>
@@ -170,13 +170,13 @@ const Features = () => {
           </div>
           <div>
             <div className="md:flex md:flex-col md:items-center">
-              <h2 className="text-[#595959] text-[1.1rem] font-bold tracking-wide md:text-[1.25rem] lg:text-[1.3rem] md:mt-20">
+              <h2 className="text-[#595959] text-[1.3rem] font-bold tracking-wide md:text-[1.3rem] lg:text-[1.3rem] md:mt-20">
                 Expense Tracking
               </h2>
-              <p className="text-[#8f8f8f] font-light mt-3.5 text-[0.9rem] tracking-wide md:text-[1.1rem] lg:text-[0.8rem] md:w-[]">
+              <p className="text-[#8f8f8f] font-bold lg:font-light mt-3.5 text-[1.1rem] tracking-wide md:text-[1.2rem] lg:text-[1rem] ">
                 View and manage transactions,
                 <br className='"hidden md:block"'></br> filter by date,
-                <br className="md:hidden"></br>
+                <br className="hidden"></br>
                 amount, or category
               </p>
             </div>
@@ -198,13 +198,13 @@ const Features = () => {
           </div>
           <div>
             <div className="md:flex md:flex-col md:items-center">
-              <h2 className="text-[#595959] text-[1.1rem] font-bold tracking-wide md:text-[1.25rem] lg:text-[1.3rem] md:mt-20">
+              <h2 className="text-[#595959] text-[1.3rem] font-bold tracking-wide md:text-[1.3rem] lg:text-[1.3rem] md:mt-20">
                 Insights & Analytics
               </h2>
-              <p className="text-[#8f8f8f] font-light mt-3.5 text-[0.9rem] tracking-wide md:text-[1.1rem] lg:text-[0.8rem]">
+              <p className="text-[#8f8f8f] font-bold lg:font-light mt-3.5 text-[1.1rem] tracking-wide md:text-[1.2rem] lg:text-[1rem]">
                 Understand your spending habits with
                 <br className='"hidden md:block"'></br> in-depth
-                <br className="md:hidden"></br>
+                <br className="hidden"></br>
                 reports and AI-driven insights
               </p>
             </div>
@@ -217,7 +217,7 @@ const Features = () => {
             </div> */}
               <div>
                 <img
-                  className="w-[80vw] h-full mt-3 md:w-[55vw] lg:w-[27vw] sm:w-[50vw] sm:mt-2"
+                  className="w-[80vw] h-full mt-8 md:w-[55vw] lg:w-[27vw] sm:w-[50vw] sm:mt-2"
                   src={InsightOne}
                 />
               </div>
