@@ -77,7 +77,9 @@ const Features = () => {
     <div className="mb-500 mt-16">
       <div className="w-fit mx-auto mb-13">
         <div className="w-fit mx-auto">
-          <p className="px-3.5 py-1 mon-sec-head lg:text-[0.7rem]">Features</p>
+          <p className="px-5 py-1 mon-sec-head lg:text-[0.7rem] font-bold">
+            Features
+          </p>
         </div>
         <div className="flex flex-col gap-6 mt-4 items-center">
           <h2 className="text-[#595959] text-[1.48rem] font-extrabold text-center md:text-[1.68rem] lg:text-[1.8rem] xl:text-[2.1rem] amazing">
@@ -85,7 +87,7 @@ const Features = () => {
             <br className="block lg:hidden" /> you
             <br className="hidden lg:flex" /> manage your money
           </h2>
-          <p className="text-[#8f8f8f] font-light text-center text-[1rem] md:text-[1.2rem] lg:text-[1rem] xl:text-[1rem] maximize">
+          <p className="text-[#8f8f8f] text-center text-[1rem] md:text-[1.2rem] lg:text-[1rem] xl:text-[1rem] maximize font-bold">
             Maximize your finances with our user friendly
             <br className="block lg:hidden" /> features that help
             <br className="hidden lg:flex" /> you track and manage your
