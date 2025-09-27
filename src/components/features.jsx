@@ -97,8 +97,8 @@ const Features = () => {
   }, []);
 
   return (
-    <div className="mb-[50rem]">
-      <div className="mb-[60rem] mt-16">
+    <div className="mb-[50rem] bg-[#e2e0ff]">
+      <div className="mb-[55rem] mt-16">
         <div className="w-fit mx-auto mb-13">
           <div className="w-fit mx-auto">
             <p className="px-5 py-1 mon-sec-head lg:text-[0.7rem] font-bold lg:font-light">
@@ -227,7 +227,7 @@ const Features = () => {
                 </h2>
                 <p className="text-[#8f8f8f] font-bold lg:font-light mt-3.5 text-[1.1rem] tracking-wide md:text-[1.2rem] lg:text-[1rem]">
                   Understand your spending habits with
-                  <br className='"hidden md:block"'></br> in-depth{' '}
+                  <br className='"hidden md:block"'></br> in-depth
                   <br className="hidden"></br>
                   reports and AI-driven insights
                 </p>
@@ -276,7 +276,7 @@ const Features = () => {
           </div>
         </div> */}
       {/* </div> */}
-      <div className="mt-8">
+      <div className="mt-8 bg-[#e2e0ff]">
         <div>
           <h2 className="text-[#595959] text-[1.4rem] text-center font-extrabold">
             Steps to <br className="hidden lg:hidden"></br> Financial Freedom
@@ -284,15 +284,15 @@ const Features = () => {
         </div>
         <div className="mt-12 flex flex-col gap-4">
           <div className="relative">
-            <h2 className="bg-[#8a66f1] w-[10rem] h-[4.5rem] text-white text-[1.5rem] static flex justify-center items-center font-extrabold">
+            <h2 className="bg-[#8a66f1] w-[10rem] h-[4.5rem] text-white text-[1.3rem] static flex justify-center items-center font-extrabold">
               CREATE
             </h2>
             <div className="absolute top-0 left-0 bg-amber-700 w-[23rem] h-[4.5rem] moved flex justify-center items-center">
-              <p className="text-white text-[1.5rem] font-extrabold">
+              <p className="text-white text-[1.3rem] font-extrabold">
                 A MONEVA ACCOUNT
               </p>
             </div>
-            <p className="text-[#595959] text-[1.2rem] font-bold mt-[10rem] pl-3 pr-3">
+            <p className="text-[#595959] text-[1.1rem] font-bold mt-[8rem] pl-[2rem] pr-3">
               Create your account in minutes and
               <br className="block lg:hidden"></br> start your journey to better
               finances, <br className="block lg:hidden" /> gain full control
