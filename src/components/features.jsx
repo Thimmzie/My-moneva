@@ -71,11 +71,34 @@ const Features = () => {
           ease: 'none',
         }),
     });
+
+    gsap.set('.moved', {
+      transformOrigin: 'left center',
+      rotate: 0,
+      y: 0,
+    });
+
+    gsap.fromTo(
+      '.moved',
+      { rotate: 0, y: 0, x: 0 },
+      {
+        rotate: 12,
+        y: 47,
+        x: 10,
+        ease: 'none',
+        scrollTrigger: {
+          trigger: '.moved',
+          start: 'top 80%',
+          end: 'top 50%',
+          scrub: 2,
+        },
+      }
+    );
   }, []);
 
   return (
-    <div className="mb-[10rem]">
-      <div className="mb-[52rem] mt-16">
+    <div className="mb-[50rem]">
+      <div className="mb-[60rem] mt-16">
         <div className="w-fit mx-auto mb-13">
           <div className="w-fit mx-auto">
             <p className="px-5 py-1 mon-sec-head lg:text-[0.7rem] font-bold lg:font-light">
@@ -227,14 +250,14 @@ const Features = () => {
           </div>
         </div>
       </div>
-      <div className=" bg-[url('./assets/images/mobilebg.png')] bg-cover w-[90%] bg-center h-[80vh] mx-auto mt-8 rounded-xl pt-[4rem] flex flex-col items-center">
+      {/* <div className=" bg-[url('./assets/images/mobilebg.png')] bg-cover w-[90%] bg-center h-[80vh] mx-auto mt-8 rounded-xl pt-[4rem] flex flex-col items-center">
         <div>
           <h2 className="text-[#fcfcfc] text-[1.4rem] text-center font-extrabold">
             Three Steps to <br className="block lg:hidden"></br> Financial
             Freedom
           </h2>
-        </div>
-        <div className="flex flex-col mx-[1rem]">
+        </div> */}
+      {/* <div className="flex flex-col mx-[1rem]">
           <div className="flex mt-[3rem] gap-3 ">
             <div>
               <h1 className="text-[#fcfcfc] text-[1rem] font-bold bg-[#8a66f1] rounded-full flex items-center justify-center w-8 h-8">
@@ -242,14 +265,41 @@ const Features = () => {
               </h1>
             </div>
             <div>
-              <h2 className="text-[#fcfcfc] text-[1.3rem] font-bold">
+              <h2 className="text-[#fcfcfc] text-[1.2rem] font-bold">
                 Sign Up
               </h2>
-              <p className="text-[#f5f0f0] text-[1.1rem] font-bold pt-3">
+              <p className="text-[#ebe4e4] text-[1rem] font-light pt-3">
                 Create your account in minutes and start your
                 <br className="block lg:hidden"></br> journey to better finances
               </p>
             </div>
+          </div>
+        </div> */}
+      {/* </div> */}
+      <div className="mt-8">
+        <div>
+          <h2 className="text-[#595959] text-[1.4rem] text-center font-extrabold">
+            Steps to <br className="hidden lg:hidden"></br> Financial Freedom
+          </h2>
+        </div>
+        <div className="mt-12 flex flex-col gap-4">
+          <div className="relative">
+            <h2 className="bg-[#8a66f1] w-[10rem] h-[4.5rem] text-white text-[1.5rem] static flex justify-center items-center font-extrabold">
+              CREATE
+            </h2>
+            <div className="absolute top-0 left-0 bg-amber-700 w-[23rem] h-[4.5rem] moved flex justify-center items-center">
+              <p className="text-white text-[1.5rem] font-extrabold">
+                A MONEVA ACCOUNT
+              </p>
+            </div>
+            <p className="text-[#595959] text-[1.2rem] font-bold mt-[10rem] pl-3 pr-3">
+              Create your account in minutes and
+              <br className="block lg:hidden"></br> start your journey to better
+              finances, <br className="block lg:hidden" /> gain full control
+              over your spending, <br className="block lg:hidden" /> and achieve
+              your goals faster with <br className="block lg:hidden" /> smarter
+              tools.
+            </p>
           </div>
         </div>
       </div>
