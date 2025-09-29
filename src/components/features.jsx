@@ -295,7 +295,7 @@ const Features = () => {
               </p>
             </div>
             <div className="flex flex-col items-center px-[2rem]">
-              <p className="text-[#595959] text-[1.1rem] font-bold mt-[8rem] leading-10">
+              <p className="text-[#595959] text-[0.9rem] font-bold mt-[8rem] leading-10">
                 Create your account in minutes and start your journey to better
                 finances, gain full control over your spending, and achieve your
                 goals faster.
@@ -312,7 +312,7 @@ const Features = () => {
               </p>
             </div>
             <div className="flex flex-col items-center">
-              <p className="text-[#595959] text-[1.1rem] font-bold mt-[8rem] leading-10 px-[2rem]">
+              <p className="text-[#595959] text-[0.9rem] font-bold mt-[8rem] leading-10 px-[2rem]">
                 Define your spending category and set achievable goals to track
                 your progress, build better habits, and stay in control of your
                 finances.
@@ -329,7 +329,7 @@ const Features = () => {
               </p>
             </div>
             <div className="flex flex-col items-center">
-              <p className="text-[#595959] text-[1.1rem] font-bold mt-[8rem] leading-10 px-[2rem]">
+              <p className="text-[#595959] text-[0.9rem] font-bold mt-[8rem] leading-10 px-[2rem]">
                 Monitor your progress with real-time updates and AI-driven
                 insights that help you identify patterns, discover smarter ways
                 to save, and make confident financial decisions every step of
@@ -347,7 +347,7 @@ const Features = () => {
               </p>
             </div>
             <div className="flex flex-col items-center">
-              <p className="text-[#595959] text-[1.1rem] font-bold mt-[8rem] leading-10 px-[2rem]">
+              <p className="text-[#595959] text-[0.9rem] font-bold mt-[8rem] leading-10 px-[2rem]">
                 Every expense you track brings you closer to the bigger picture.
                 Stay consistent and watch your goals become reality.
               </p>
