@@ -286,16 +286,16 @@ const Features = () => {
         </div>
         <div className="mt-12 flex flex-col gap-7 ">
           <div className="relative ">
-            <h2 className="bg-[#8a66f1] w-[10rem] h-[4.5rem] text-white text-[1.3rem] static flex justify-center items-center font-extrabold ml-[2rem]">
+            <h2 className="bg-[#8a66f1] w-[10rem] h-[4.5rem] text-white text-[1.2rem] static flex justify-center items-center font-extrabold ml-[2rem]">
               Create
             </h2>
             <div className="absolute top-0 left-0 bg-amber-700 w-[17rem] h-[4.5rem] moved flex justify-center items-center ml-[2rem]">
-              <p className="text-white text-[1.3rem] font-extrabold">
+              <p className="text-white text-[1.2rem] font-extrabold">
                 a moneva account
               </p>
             </div>
             <div className="flex flex-col items-center px-[2rem]">
-              <p className="text-[#595959] text-[0.9rem] font-bold mt-[8rem] leading-10">
+              <p className="text-[#595959] text-[1rem] font-bold mt-[8rem] leading-10">
                 Create your account in minutes and start your journey to better
                 finances, gain full control over your spending, and achieve your
                 goals faster.
@@ -303,16 +303,16 @@ const Features = () => {
             </div>
           </div>
           <div className="relative ">
-            <h2 className=" bg-amber-700 w-[10rem] h-[4.5rem] text-white text-[1.3rem] static flex justify-center items-center font-extrabold ml-[2rem]">
+            <h2 className=" bg-amber-700 w-[10rem] h-[4.5rem] text-white text-[1.2rem] static flex justify-center items-center font-extrabold ml-[2rem]">
               Set
             </h2>
             <div className="absolute top-0 left-0 bg-[#8a66f1] w-[17rem] h-[4.5rem] moved flex justify-center items-center ml-[2rem]">
-              <p className="text-white text-[1.3rem] font-extrabold">
+              <p className="text-white text-[1.2rem] font-extrabold">
                 your budgets
               </p>
             </div>
             <div className="flex flex-col items-center">
-              <p className="text-[#595959] text-[0.9rem] font-bold mt-[8rem] leading-10 px-[2rem]">
+              <p className="text-[#595959] text-[1rem] font-bold mt-[8rem] leading-10 px-[2rem]">
                 Define your spending category and set achievable goals to track
                 your progress, build better habits, and stay in control of your
                 finances.
@@ -320,16 +320,16 @@ const Features = () => {
             </div>
           </div>
           <div className="relative ">
-            <h2 className="bg-[#8a66f1] w-[10rem] h-[4.5rem] text-white text-[1.3rem] static flex justify-center items-center font-extrabold ml-[2rem]">
+            <h2 className="bg-[#8a66f1] w-[10rem] h-[4.5rem] text-white text-[1.2rem] static flex justify-center items-center font-extrabold ml-[2rem]">
               Track
             </h2>
             <div className="absolute top-0 left-0 bg-amber-700 w-[17rem] h-[4.5rem] moved flex justify-center items-center ml-[2rem]">
-              <p className="text-white text-[1.3rem] font-extrabold">
+              <p className="text-white text-[1.2rem] font-extrabold">
                 your expenses
               </p>
             </div>
             <div className="flex flex-col items-center">
-              <p className="text-[#595959] text-[0.9rem] font-bold mt-[8rem] leading-10 px-[2rem]">
+              <p className="text-[#595959] text-[1rem] font-bold mt-[8rem] leading-10 px-[2rem]">
                 Monitor your progress with real-time updates and AI-driven
                 insights that help you identify patterns, discover smarter ways
                 to save, and make confident financial decisions every step of
@@ -338,16 +338,16 @@ const Features = () => {
             </div>
           </div>
           <div className="relative ">
-            <h2 className=" bg-amber-700 w-[10rem] h-[4.5rem] text-white text-[1.3rem] static flex justify-center items-center font-extrabold ml-[2rem]">
+            <h2 className=" bg-amber-700 w-[10rem] h-[4.5rem] text-white text-[1.2rem] static flex justify-center items-center font-extrabold ml-[2rem]">
               Reach
             </h2>
             <div className="absolute top-0 left-0 bg-[#8a66f1] w-[17rem] h-[4.5rem] moved flex justify-center items-center ml-[2rem]">
-              <p className="text-white text-[1.3rem] font-extrabold">
+              <p className="text-white text-[1.2rem] font-extrabold">
                 your goals
               </p>
             </div>
             <div className="flex flex-col items-center">
-              <p className="text-[#595959] text-[0.9rem] font-bold mt-[8rem] leading-10 px-[2rem]">
+              <p className="text-[#595959] text-[1rem] font-bold mt-[8rem] leading-10 px-[2rem]">
                 Every expense you track brings you closer to the bigger picture.
                 Stay consistent and watch your goals become reality.
               </p>
