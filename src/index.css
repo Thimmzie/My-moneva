@@ -42,6 +42,10 @@ body {
    
   }
 }
+.review-box{
+ box-shadow: 4px 12px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 1rem;
+}
 /* .middle-content-box {
   border-top-left-radius: 0rem;
   border-top-right-radius: 0rem;

@@ -99,7 +99,7 @@ const Features = () => {
   }, []);
 
   return (
-    <div className="mb-[50rem] ">
+    <div className="mb-[9rem] ">
       <div className="mb-[55rem] mt-16 lg:mb-[48rem]">
         <div className="w-fit mx-auto mb-13">
           <div className="w-fit mx-auto">

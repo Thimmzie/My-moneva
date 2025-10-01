@@ -6,6 +6,7 @@ import Navbar from './components/navbar';
 import Sponsors from './components/sponsors';
 import Features from './components/features';
 import Initnav from './components/initnav';
+import Testimonials from './components/testimonials';
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Navbar />
       <Sponsors />
       <Features />
+      <Testimonials />
     </div>
   );
 }
