@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useRef, useEffect } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
 import Mobilemap from '../assets/images/mobilemap.png';
@@ -14,6 +14,10 @@ import EllipseEight from '../assets/images/Ellipse 32.png';
 import EllipseNine from '../assets/images/Ellipse 33.png';
 import Star from '../assets/images/4-stars.png';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import { Navigation, EffectCoverflow } from 'swiper/modules';
+import 'swiper/css/navigation';
+// import 'swiper/css/ effect-coverflow';
 
 gsap.registerPlugin(ScrollTrigger);
 const testimonials = () => {
@@ -114,7 +118,7 @@ const testimonials = () => {
             src={EllipseEight}
           />
           <img
-            className="absolute w-[10%] top-[2%] left-[85%] lg:w-[3.8%] lg:left-[83%] lg:top-[3%] ellipse"
+            className="absolute w-[10%] top-[2%] left-[80%] lg:w-[3.8%] lg:left-[83%] lg:top-[3%] ellipse"
             src={EllipseTwo}
           />
           <img
@@ -134,29 +138,93 @@ const testimonials = () => {
             src={EllipseFive}
           />
           <img
-            className="absolute w-[10%] top-[35%] left-[90%] lg:w-[3.8%] lg:left-[88%] lg:top-[33%] ellipse"
+            className="absolute w-[10%] top-[35%] left-[87%] lg:w-[3.8%] lg:left-[88%] lg:top-[33%] ellipse"
             src={EllipseThree}
           />
         </div>
-        <Swiper>
-          <SwiperSlide>
-            <div className="bg-[#ffff] w-[75%] h-[37vh] review-box mx-auto mt-[28rem] mb-[2rem] flex flex-col items-center justify-center gap-3 px-6 ">
-              <p className="text-[#595959] font-light tracking-wide  text-[0.9rem] text-center leading-7">
-                Our platform uses blockchain technology to create,
-                <br className="hidden sm:block"></br>
-                manage, and validate event tickets. This ensures each
-                <br className="hidden sm:block"></br> ticket is secure,
-                transparent, and tamper-proof,
-                <br className="hidden sm:block"></br> preventing fraud and
-                scalping.
-              </p>
-              <h4 className="text-[#2b2929] font-bold text-[1rem]">
-                Adetayo Johnson
-              </h4>
-              <img src={Star} />
-            </div>
-          </SwiperSlide>
-        </Swiper>
+        <div className="relative">
+          <Swiper
+            modules={[Navigation, EffectCoverflow]}
+            navigation
+            effect={'coverflow'}
+            slidesPerView={1}
+            className="myswiper"
+            coverflowEffect={{
+              rotate: 50,
+              stretch: 0,
+              depth: 100,
+              modifier: 1,
+              slideShadows: true,
+            }}
+          >
+            <SwiperSlide>
+              <div className="bg-[#ffff] w-[75%] h-[37vh] review-box mx-auto mt-[28rem] mb-[2rem] flex flex-col items-center justify-center gap-3 px-6 md:w-[40%] ">
+                <p className="text-[#595959] font-bold tracking-wide  text-[0.9rem] text-center leading-7">
+                  Moneva has completely transformed how I manage my finances.
+                  The AI-powered budgeting tools make it so easy to set
+                  realistic limits and stick to them, while the predictive
+                  alerts help me avoid overspending
+                </p>
+                <h4 className="text-[#2b2929] font-bold text-[1rem]">
+                  Adetayo Johnson
+                </h4>
+                <img src={Star} />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="bg-[#ffff] w-[75%] h-[37vh] review-box mx-auto mt-[28rem] mb-[2rem] flex flex-col items-center justify-center gap-3 px-6 ">
+                <p className="text-[#595959] font-bold tracking-wide  text-[0.9rem] text-center leading-7">
+                  Moneva makes tracking my daily expenses effortless. The clean
+                  interface lets me see exactly where my money is going, and the
+                  custom categories keep everything organized.
+                </p>
+                <h4 className="text-[#2b2929] font-bold text-[1rem]">
+                  Daniel Ezinne
+                </h4>
+                <img src={Star} />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="bg-[#ffff] w-[75%] h-[37vh] review-box mx-auto mt-[28rem] mb-[2rem] flex flex-col items-center justify-center gap-3 px-6 ">
+                <p className="text-[#595959] font-bold tracking-wide  text-[0.9rem] text-center leading-7">
+                  Since I started using Moneva, I’ve been able to save more each
+                  month. The real-time updates and AI-driven insights give me
+                  clarity and confidence in my financial decisions.
+                </p>
+                <h4 className="text-[#2b2929] font-bold text-[1rem]">
+                  Mercy Odubona
+                </h4>
+                <img src={Star} />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="bg-[#ffff] w-[75%] h-[37vh] review-box mx-auto mt-[28rem] mb-[2rem] flex flex-col items-center justify-center gap-3 px-6 ">
+                <p className="text-[#595959] font-bold tracking-wide  text-[0.9rem] text-center leading-7">
+                  I love how Moneva turns complex budgeting into something
+                  simple. Setting financial goals and actually sticking to them
+                  has never been this easy or stress-free.
+                </p>
+                <h4 className="text-[#2b2929] font-bold text-[1rem]">
+                  Emeka Peters
+                </h4>
+                <img src={Star} />
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="bg-[#ffff] w-[75%] h-[37vh] review-box mx-auto mt-[28rem] mb-[2rem] flex flex-col items-center justify-center gap-3 px-6 ">
+                <p className="text-[#595959] font-bold tracking-wide  text-[0.9rem] text-center leading-7">
+                  Moneva gives me peace of mind with its predictive alerts and
+                  smart reminders. I no longer worry about overspending because
+                  I always know what’s ahead.
+                </p>
+                <h4 className="text-[#2b2929] font-bold text-[1rem]">
+                  Ruth Danjuma
+                </h4>
+                <img src={Star} />
+              </div>
+            </SwiperSlide>
+          </Swiper>
+        </div>
       </div>
     </div>
   );
