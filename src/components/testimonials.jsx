@@ -22,54 +22,39 @@ import 'swiper/css/navigation';
 gsap.registerPlugin(ScrollTrigger);
 const testimonials = () => {
   useEffect(() => {
-    gsap.set('.testimnial-amazing', { y: 90, opacity: 0 });
+    gsap.fromTo(
+      '.testimnial-amazing',
+      { y: 120, opacity: 0 },
+      {
+        y: 0,
+        opacity: 1,
+        duration: 0.4,
+        ease: 'power2.out',
+        scrollTrigger: {
+          trigger: '.testimnial-amazing',
+          start: 'top 99%',
+          end: 'bottom 60%',
+          toggleActions: 'play none none reverse',
+        },
+      }
+    );
 
-    ScrollTrigger.create({
-      trigger: '.testimnial-amazing',
-      start: 'top 80%',
-      end: 'bottom 90%',
-      toggleActions: 'play reverse play reverse',
-
-      onEnter: () =>
-        gsap.to('.testimnial-amazing', {
-          y: 0,
-          duration: 0.4,
-          ease: 'none',
-          opacity: 1,
-        }),
-      onLeaveBack: () =>
-        gsap.to('.testimnial-amazing', {
-          y: 60,
-          duration: 0.3,
-          ease: 'none',
-          opacity: 1,
-          delay: 0.2,
-        }),
-    });
-
-    gsap.set('.testimnial-maximize', { y: 90, opacity: 0 });
-
-    ScrollTrigger.create({
-      trigger: '.testimnial-maximize',
-      start: 'top 80%',
-      end: 'bottom 90%',
-      toggleActions: 'play reverse play reverse',
-      onEnter: () =>
-        gsap.to('.testimnial-maximize', {
-          y: 0,
-          duration: 0.4,
-          ease: 'none',
-          opacity: 1,
-          // delay: 0.2,
-        }),
-      onLeaveBack: () =>
-        gsap.to('.testimnial-maximize', {
-          y: 60,
-          duration: 0.2,
-          ease: 'none',
-          opacity: 1,
-        }),
-    });
+    gsap.fromTo(
+      '.testimnial-maximize',
+      { y: 160, opacity: 0 },
+      {
+        y: 0,
+        opacity: 1,
+        duration: 0.4,
+        ease: 'power2.out',
+        scrollTrigger: {
+          trigger: '.testimnial-maximize',
+          start: 'top 99%',
+          end: 'bottom 60%',
+          toggleActions: 'play none none reverse',
+        },
+      }
+    );
     gsap.from('.ellipse', {
       opacity: 0,
       duration: 1,
@@ -103,7 +88,7 @@ const testimonials = () => {
   }, []);
 
   return (
-    <div className="mb-[50rem]">
+    <div className="mb-[15rem]">
       <div className="w-fit mx-auto">
         <p className="px-5 py-1 mon-sec-head lg:text-[0.7rem] font-bold lg:font-light">
           Testimonials
