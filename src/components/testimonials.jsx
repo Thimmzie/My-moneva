@@ -26,8 +26,8 @@ const testimonials = () => {
 
     ScrollTrigger.create({
       trigger: '.testimnial-amazing',
-      start: 'top 99%',
-      end: 'bottom 60%',
+      start: 'top 80%',
+      end: 'bottom 90%',
       toggleActions: 'play reverse play reverse',
 
       onEnter: () =>
@@ -51,8 +51,8 @@ const testimonials = () => {
 
     ScrollTrigger.create({
       trigger: '.testimnial-maximize',
-      start: 'top 99%',
-      end: 'bottom 60%',
+      start: 'top 80%',
+      end: 'bottom 90%',
       toggleActions: 'play reverse play reverse',
       onEnter: () =>
         gsap.to('.testimnial-maximize', {
@@ -60,7 +60,7 @@ const testimonials = () => {
           duration: 0.4,
           ease: 'none',
           opacity: 1,
-          delay: 0.2,
+          // delay: 0.2,
         }),
       onLeaveBack: () =>
         gsap.to('.testimnial-maximize', {
@@ -85,6 +85,21 @@ const testimonials = () => {
         once: true,
       },
     });
+    gsap.fromTo(
+      '.swiper-box',
+      { scale: 0, opacity: 0 },
+      {
+        scale: 1,
+        opacity: 1,
+        duration: 1,
+        ease: 'back.out(1.7)',
+        scrollTrigger: {
+          trigger: '.swiper-box',
+          start: 'top 60%',
+          toggleActions: 'play none play none',
+        },
+      }
+    );
   }, []);
 
   return (
@@ -100,58 +115,60 @@ const testimonials = () => {
         </h2>
         <p className="text-[#8f8f8f] text-center text-[1rem] md:text-[1.2rem] lg:text-[1.1rem] xl:text-[1rem] testimnial-maximize font-bold lg:font-light mx-2">
           Don’t just take our word for it hear from our users about their
-          <br className="hidden lg:block"></br> experience with moneva
+          <br className="hidden sm:block lg:block"></br> experience with moneva
         </p>
       </div>
       <div className="mt-10 bg-[url('./assets/images/mobilemap.png')] bg-cover h-[80vh] bg-no-repeat relative lg:bg-[url('./assets/images/SeekPng.png')] lg:mx-[6rem] ellipse-container">
         <div>
           <img
-            className="absolute w-[8%]  left-[2%] lg:w-[2.7%] lg:left-[10%] lg:top-[3%] ellipse"
+            className="absolute w-[8%]  left-[2%] sm:w-[6%] md:w-[4.5%]  lg:w-[2.7%] lg:left-[10%] lg:top-[3%] ellipse"
             src={EllipseSix}
           />
           <img
-            className="absolute w-[10%] top-[10%] left-[20%] lg:w-[3.8%] lg:left-[25%] lg:top-[15%] ellipse"
+            className="absolute w-[10%] top-[10%] left-[20%] sm:w-[8%] md:w-[6.5%] lg:w-[3.8%] lg:left-[25%] lg:top-[15%] ellipse"
             src={EllipseFour}
           />
           <img
-            className="absolute w-[7%] top-[17%] left-[60%] lg:w-[2.2%] lg:left-[68%] lg:top-[22%] ellipse"
+            className="absolute w-[7%] top-[17%] left-[60%] sm:w-[5%] md:w-[3.5%] lg:w-[2.2%] lg:left-[68%] lg:top-[22%] ellipse"
             src={EllipseEight}
           />
           <img
-            className="absolute w-[10%] top-[2%] left-[80%] lg:w-[3.8%] lg:left-[83%] lg:top-[3%] ellipse"
+            className="absolute w-[10%] top-[2%] left-[80%] sm:w-[8%] md:w-[6.5%] lg:w-[3.8%] lg:left-[83%] lg:top-[3%] ellipse"
             src={EllipseTwo}
           />
           <img
-            className="absolute w-[19%] top-[30%] left-[45%] lg:w-[6%] lg:left-[50%] ellipse"
+            className="absolute w-[19%] top-[30%] left-[45%] sm:w-[17%] md:w-[12%] lg:w-[6%] lg:left-[50%] ellipse"
             src={EllipseOne}
           />
           <img
-            className="absolute w-[9%] top-[58%] left-[12%] lg:w-[2.7%] lg:left-[22%] ellipse"
+            className="absolute w-[9%] top-[58%] left-[12%] sm:w-[7%] md:w-[5.5%] lg:w-[2.7%] lg:left-[22%] ellipse"
             src={EllipseSeven}
           />
           <img
-            className="absolute w-[7%] top-[48%] left-[30%] lg:w-[2.2%] lg:left-[36%] ellipse"
+            className="absolute w-[7%] top-[48%] left-[30%] sm:w-[5%] md:w-[3.5%] lg:w-[2.2%] lg:left-[36%] ellipse"
             src={EllipseNine}
           />
           <img
-            className="absolute w-[8%] top-[52%] left-[75%] lg:w-[2.7%] ellipse"
+            className="absolute w-[8%] top-[52%] left-[75%] sm:w-[6%] md:w-[4.5%] lg:w-[2.7%] ellipse"
             src={EllipseFive}
           />
           <img
-            className="absolute w-[10%] top-[35%] left-[87%] lg:w-[3.8%] lg:left-[88%] lg:top-[33%] ellipse"
+            className="absolute w-[10%] top-[35%] left-[87%] sm:w-[8%] md:w-[6.5%] lg:w-[3.8%] lg:left-[88%] lg:top-[33%] ellipse"
             src={EllipseThree}
           />
         </div>
-        <div className="relative">
+        <div className="relative swiper-box">
           <Swiper
             modules={[Navigation]}
             navigation
             effect
             slidesPerView={1}
             className="myswiper"
+            noSwiping={true}
+            noSwipingClass="swiper-no-swiping"
           >
-            <SwiperSlide>
-              <div className="bg-[#ffff] w-[75%] h-[37vh] review-box mx-auto mt-[28rem] mb-[2rem] flex flex-col items-center justify-center gap-3 px-6 md:w-[40%] ">
+            <SwiperSlide className="swiper-no-swiping">
+              <div className="bg-[#ffff] w-[75%] h-[37vh] review-box mx-auto mt-[28rem] mb-[2rem] flex flex-col items-center justify-center gap-3 px-6 sm:w-[65%] md:px-[3rem] lg:w-[40%] lg:h-[40vh] lg:mt-[22rem]">
                 <p className="text-[#595959] font-bold tracking-wide  text-[0.9rem] text-center leading-7">
                   Moneva has completely transformed how I manage my finances.
                   The AI-powered budgeting tools make it so easy to set
@@ -164,8 +181,8 @@ const testimonials = () => {
                 <img src={Star} />
               </div>
             </SwiperSlide>
-            <SwiperSlide>
-              <div className="bg-[#ffff] w-[75%] h-[37vh] review-box mx-auto mt-[28rem] mb-[2rem] flex flex-col items-center justify-center gap-3 px-6 ">
+            <SwiperSlide className="swiper-no-swiping">
+              <div className="bg-[#ffff] w-[75%] h-[37vh] review-box mx-auto mt-[28rem] mb-[2rem] flex flex-col items-center justify-center gap-3 px-6 sm:w-[65%] md:px-[3rem] lg:w-[40%] lg:h-[40vh] lg:mt-[22rem]">
                 <p className="text-[#595959] font-bold tracking-wide  text-[0.9rem] text-center leading-7">
                   Moneva makes tracking my daily expenses effortless. The clean
                   interface lets me see exactly where my money is going, and the
@@ -177,8 +194,8 @@ const testimonials = () => {
                 <img src={Star} />
               </div>
             </SwiperSlide>
-            <SwiperSlide>
-              <div className="bg-[#ffff] w-[75%] h-[37vh] review-box mx-auto mt-[28rem] mb-[2rem] flex flex-col items-center justify-center gap-3 px-6 ">
+            <SwiperSlide className="swiper-no-swiping">
+              <div className="bg-[#ffff] w-[75%] h-[37vh] review-box mx-auto mt-[28rem] mb-[2rem] flex flex-col items-center justify-center gap-3 px-6 sm:w-[65%] md:px-[3rem] lg:w-[40%] lg:h-[40vh] lg:mt-[22rem] ">
                 <p className="text-[#595959] font-bold tracking-wide  text-[0.9rem] text-center leading-7">
                   Since I started using Moneva, I’ve been able to save more each
                   month. The real-time updates and AI-driven insights give me
@@ -190,8 +207,8 @@ const testimonials = () => {
                 <img src={Star} />
               </div>
             </SwiperSlide>
-            <SwiperSlide>
-              <div className="bg-[#ffff] w-[75%] h-[37vh] review-box mx-auto mt-[28rem] mb-[2rem] flex flex-col items-center justify-center gap-3 px-6 ">
+            <SwiperSlide className="swiper-no-swiping">
+              <div className="bg-[#ffff] w-[75%] h-[37vh] review-box mx-auto mt-[28rem] mb-[2rem] flex flex-col items-center justify-center gap-3 px-6 sm:w-[65%] md:px-[3rem] lg:w-[40%] lg:h-[40vh] lg:mt-[22rem]">
                 <p className="text-[#595959] font-bold tracking-wide  text-[0.9rem] text-center leading-7">
                   I love how Moneva turns complex budgeting into something
                   simple. Setting financial goals and actually sticking to them
@@ -203,8 +220,8 @@ const testimonials = () => {
                 <img src={Star} />
               </div>
             </SwiperSlide>
-            <SwiperSlide>
-              <div className="bg-[#ffff] w-[75%] h-[37vh] review-box mx-auto mt-[28rem] mb-[2rem] flex flex-col items-center justify-center gap-3 px-6 ">
+            <SwiperSlide className="swiper-no-swiping">
+              <div className="bg-[#ffff] w-[75%] h-[37vh] review-box mx-auto mt-[28rem] mb-[2rem] flex flex-col items-center justify-center gap-3 px-6 sm:w-[65%] md:px-[3rem] lg:w-[40%] lg:h-[40vh] lg:mt-[22rem] ">
                 <p className="text-[#595959] font-bold tracking-wide  text-[0.9rem] text-center leading-7">
                   Moneva gives me peace of mind with its predictive alerts and
                   smart reminders. I no longer worry about overspending because

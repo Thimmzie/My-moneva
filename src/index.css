@@ -46,15 +46,11 @@ body {
  box-shadow: 4px 12px 30px rgba(0, 0, 0, 0.15);
   border-radius: 1rem;
 }
-/* .myswiper{
-  height: 160vh;
-
-} */
 
 .swiper-button-next{
   color: #8a66f1 !important;
   background-color: white;
-  border: solid #8a66f1 1px;
+  border: solid #8a66f1 2px;
   border-radius: 5rem;
    padding: 1.3rem;
   right: 1% !important;
@@ -62,11 +58,12 @@ body {
   top: 75% !important;
   cursor: pointer;
   font-weight: 900;
+  
 }
 .swiper-button-prev {
   color: #8a66f1 !important;
   background-color: white;
-  border: solid #8a66f1 1px;
+  border: solid #8a66f1 2px;
   border-radius: 5rem;
   padding: 1.3rem;
   left: 1% !important;
@@ -74,11 +71,76 @@ body {
   top: 75% !important;
   cursor: pointer;
   font-weight: 900;
+  
 }
 .swiper-button-next::after,
 .swiper-button-prev::after {
   font-size: 15px !important; 
 }
+@media (min-width: 640px) {
+  .swiper-button-next{
+  color: #8a66f1 !important;
+  background-color: white;
+  border: solid #8a66f1 2px;
+  border-radius: 5rem;
+   padding: 1.3rem;
+  right: 8% !important;
+  position: absolute;
+  top: 75% !important;
+  cursor: pointer;
+  font-weight: 900;
+  
+}
+.swiper-button-prev {
+  color: #8a66f1 !important;
+  background-color: white;
+  border: solid #8a66f1 2px;
+  border-radius: 5rem;
+  padding: 1.3rem;
+  left: 8% !important;
+  position: absolute;
+  top: 75% !important;
+  cursor: pointer;
+  font-weight: 900;
+  
+}
+}
+@media (min-width: 1024px) {
+  .swiper-button-next{
+  color: #8a66f1 !important;
+  background-color: white;
+  border: solid #8a66f1 1px;
+  /* border-radius: 5rem; */
+  border-radius: 50%; 
+  right: 23% !important;
+  position: absolute;
+  top: 75% !important;
+  cursor: pointer;
+  font-weight: 900;
+  
+}
+.swiper-button-prev {
+  color: #8a66f1 !important;
+  background-color: white;
+  border: solid #8a66f1 1px;
+ padding: 1.3rem;
+  border-radius: 50%; 
+  left: 23% !important;
+  position: absolute;
+  top: 75% !important;
+  cursor: pointer;
+  font-weight: 900;
+  
+}
+
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 15px !important; 
+}
+}
+
+
 /* .middle-content-box {
   border-top-left-radius: 0rem;
   border-top-right-radius: 0rem;
