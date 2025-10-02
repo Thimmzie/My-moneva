@@ -15,7 +15,7 @@ import EllipseNine from '../assets/images/Ellipse 33.png';
 import Star from '../assets/images/4-stars.png';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
-import { Navigation, EffectCoverflow } from 'swiper/modules';
+import { Navigation } from 'swiper/modules';
 import 'swiper/css/navigation';
 // import 'swiper/css/ effect-coverflow';
 
@@ -144,18 +144,11 @@ const testimonials = () => {
         </div>
         <div className="relative">
           <Swiper
-            modules={[Navigation, EffectCoverflow]}
+            modules={[Navigation]}
             navigation
-            effect={'coverflow'}
+            effect
             slidesPerView={1}
             className="myswiper"
-            coverflowEffect={{
-              rotate: 50,
-              stretch: 0,
-              depth: 100,
-              modifier: 1,
-              slideShadows: true,
-            }}
           >
             <SwiperSlide>
               <div className="bg-[#ffff] w-[75%] h-[37vh] review-box mx-auto mt-[28rem] mb-[2rem] flex flex-col items-center justify-center gap-3 px-6 md:w-[40%] ">
@@ -165,7 +158,7 @@ const testimonials = () => {
                   realistic limits and stick to them, while the predictive
                   alerts help me avoid overspending
                 </p>
-                <h4 className="text-[#2b2929] font-bold text-[1rem]">
+                <h4 className="text-[#2b2929] font-extrabold text-[1rem]">
                   Adetayo Johnson
                 </h4>
                 <img src={Star} />
@@ -178,7 +171,7 @@ const testimonials = () => {
                   interface lets me see exactly where my money is going, and the
                   custom categories keep everything organized.
                 </p>
-                <h4 className="text-[#2b2929] font-bold text-[1rem]">
+                <h4 className="text-[#2b2929] font-extrabold text-[1rem]">
                   Daniel Ezinne
                 </h4>
                 <img src={Star} />
@@ -191,7 +184,7 @@ const testimonials = () => {
                   month. The real-time updates and AI-driven insights give me
                   clarity and confidence in my financial decisions.
                 </p>
-                <h4 className="text-[#2b2929] font-bold text-[1rem]">
+                <h4 className="text-[#2b2929] font-extrabold text-[1rem]">
                   Mercy Odubona
                 </h4>
                 <img src={Star} />
@@ -204,7 +197,7 @@ const testimonials = () => {
                   simple. Setting financial goals and actually sticking to them
                   has never been this easy or stress-free.
                 </p>
-                <h4 className="text-[#2b2929] font-bold text-[1rem]">
+                <h4 className="text-[#2b2929] font-extrabold text-[1rem]">
                   Emeka Peters
                 </h4>
                 <img src={Star} />
@@ -217,7 +210,7 @@ const testimonials = () => {
                   smart reminders. I no longer worry about overspending because
                   I always know what’s ahead.
                 </p>
-                <h4 className="text-[#2b2929] font-bold text-[1rem]">
+                <h4 className="text-[#2b2929] font-extrabold text-[1rem]">
                   Ruth Danjuma
                 </h4>
                 <img src={Star} />
