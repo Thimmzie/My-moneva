@@ -63,10 +63,10 @@ const pricing = () => {
       <div className="toggle"></div>
       <div className="mt-[5rem]">
         <div className="monthly flex flex-col gap-4 items-center">
-          <div className="bg-[#f6f6f6] w-[90vw] h-[78vh] rounded-3xl pt-[3rem] px-[1.2rem]">
+          <div className="bg-[#d1cece] w-[90vw] h-[78vh] rounded-3xl pt-[3rem] px-[1.2rem]">
             <h2 className="pricing-box-title">Free</h2>
-            <p className="text-[1.2rem] text-[#808080] py-8 font-bold">
-              Ideal for beginners who want to test <br></br> the waters with
+            <p className="text-[1rem] text-[#808080] py-8 font-bold">
+              Ideal for beginners who want to test the <br></br> waters with
               simple budgeting tools.
             </p>
             <div className=" w-full relative border-div">
@@ -87,25 +87,25 @@ const pricing = () => {
               <ul className="flex flex-col gap-5">
                 <div className="flex gap-4 ">
                   <div className="bg-[#8a66f1] rounded-full inline-flex items-center justify-center">
-                    <FaCheck className=" off-white-check m-2 text-[#ffff]" />
+                    <FaCheck className=" off-white-check m-2 text-[0.7rem] text-[#ffff]" />
                   </div>
-                  <p className="text-[1.2rem] text-[#595959] tracking-wide">
+                  <p className="text-[1rem] text-[#595959] tracking-wide">
                     Customizable Budgets
                   </p>
                 </div>
                 <div className="flex gap-4 ">
                   <div className="bg-[#8a66f1] rounded-full inline-flex items-center justify-center">
-                    <FaCheck className=" off-white-check m-2 text-[#ffff]" />
+                    <FaCheck className=" off-white-check m-2 text-[0.7rem] text-[#ffff]" />
                   </div>
-                  <p className="text-[1.2rem] text-[#595959] tracking-wide">
+                  <p className="text-[1rem] text-[#595959] tracking-wide">
                     Savings Goal Tracker
                   </p>
                 </div>
                 <div className="flex gap-4 ">
                   <div className="bg-[#8a66f1] rounded-full inline-flex items-center justify-center">
-                    <FaCheck className=" off-white-check m-2 text-[#ffff]" />
+                    <FaCheck className=" off-white-check m-2 text-[0.7rem] text-[#ffff]" />
                   </div>
-                  <p className="text-[1.2rem] text-[#595959] tracking-wide">
+                  <p className="text-[1rem] text-[#595959] tracking-wide">
                     Basic Customer Support
                   </p>
                 </div>
