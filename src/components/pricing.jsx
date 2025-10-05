@@ -63,11 +63,11 @@ const pricing = () => {
       <div className="toggle"></div>
       <div className="mt-[5rem]">
         <div className="monthly flex flex-col gap-10 items-center">
-          <div className="bg-[#d1cece] w-[85vw] h-[80vh] rounded-3xl pt-[3rem] px-[1.2rem]">
+          <div className="bg-[#e0e0e0] w-[85vw] h-[80vh] rounded-3xl pt-[3rem] px-[1.2rem]">
             <h2 className="pricing-box-title">Free</h2>
             <p className="text-[1rem] text-[#808080] py-8 font-bold">
-              Ideal for beginners who want to test <br></br> the waters with
-              simple budgeting tools.
+              Ideal for beginners who want to test the waters with simple
+              budgeting tools.
             </p>
             <div className=" w-full relative border-div">
               <div className="sub-border-div">
@@ -113,13 +113,13 @@ const pricing = () => {
             </div>
           </div>
           <div className="bg-[#7c5cd9] w-[85vw] h-[80vh] rounded-3xl pt-[3rem] px-[1.2rem]">
-            <div className="flex gap-[3rem] items-center">
+            <div className="flex standard-box">
               <h2 className="pricing-box-title-purple">Standard</h2>
               <p className="text-[#ffff] text-[1rem]">Recommended</p>
             </div>
 
             <p className="text-[1rem] text-[#ffff] py-8 font-bold">
-              For users looking to take control of their <br></br>finances with
+              For users looking to take control of their finances with
               data-driven insights
             </p>
             <div className=" w-full relative border-div-purple">
@@ -173,11 +173,11 @@ const pricing = () => {
               </ul>
             </div>
           </div>
-          <div className="bg-[#d1cece] w-[85vw] h-[80vh] rounded-3xl pt-[3rem] px-[1.2rem]">
+          <div className="bg-[#e0e0e0] w-[85vw] h-[80vh] rounded-3xl pt-[3rem] px-[1.2rem]">
             <h2 className="pricing-box-title">Premium</h2>
             <p className="text-[1rem] text-[#808080] py-8 font-bold">
-              Best for users ready to invest in their <br></br>financial health
-              with enhanced support
+              Best for users ready to invest in their financial health with
+              enhanced support
             </p>
             <div className=" w-full relative border-div">
               <div className="sub-border-div">

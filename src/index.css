@@ -176,15 +176,15 @@ body {
 .border-div::before{
   content: '';
   position: absolute;
-  border: solid 0.1rem #9e9d9d;
-  width: 88%;
+  border: solid 1px #9e9d9d;
+  width: 95%;
   top: 0;
 }
 .border-div::after{
   content: '';
   position: absolute;
-  border: solid 0.1rem #9e9d9d;
-  width: 88%;
+  border: solid 1px #9e9d9d;
+  width: 95%;
   bottom: 0;
 }
 .border-div-purple{
@@ -205,16 +205,22 @@ body {
 .border-div-purple::before{
   content: '';
   position: absolute;
-  border: solid 0.1rem #e7e6e6;
-  width: 88%;
+  border: solid 1px #c0c0c0;
+  width: 95%;
   top: 0;
 }
 .border-div-purple::after{
   content: '';
   position: absolute;
-  border: solid 0.1rem #e7e6e6;
-  width: 88%;
+  border: solid 1px #c0c0c0;
+  width: 95%;
   bottom: 0;
+}
+.standard-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 1.5rem;
 }
 /* .off-white-check{  
   color: #ffff !important;
