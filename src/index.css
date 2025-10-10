@@ -148,7 +148,21 @@ body {
   padding: 0.2rem 1.5rem;
   width: fit-content;
   font-weight: 600;
+  letter-spacing: 1px;
+  
 }
+@media (min-width: 1024px) {
+  .pricing-box-title{
+  color: #595959;
+  font-size: 0.8rem;
+  border: solid 0.1rem #d3d3d3;
+  border-radius: 3rem;
+  padding: 0.1rem 1.3rem;
+  width: fit-content;
+  font-weight: 400;
+  letter-spacing: 1px;
+  
+}}
 .pricing-box-title-purple{
     color: #ffff;
   font-size: 1.2rem;
@@ -157,7 +171,20 @@ body {
   padding: 0.2rem 1.5rem;
   width: fit-content;
   font-weight: 600;
+  letter-spacing: 1px;
 }
+@media (min-width: 1024px) {
+  .pricing-box-title-purple{
+   color: #ffff;
+  font-size: 0.8rem;
+  border: solid 0.1rem #eeeded;
+  border-radius: 3rem;
+  padding: 0.2rem 1.3rem;
+  width: fit-content;
+  font-weight: 400;
+    letter-spacing: 1px;
+  
+}}
 .border-div{
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
@@ -165,6 +192,17 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+@media (min-width:1024px) {
+  .border-div{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+  
 }
 .sub-border-div{
   display: flex !important;
@@ -176,16 +214,33 @@ body {
 .border-div::before{
   content: '';
   position: absolute;
-  border: solid 1px #9e9d9d;
+  border: solid 1px #c5c4c4;
   width: 95%;
   top: 0;
 }
 .border-div::after{
   content: '';
   position: absolute;
-  border: solid 1px #9e9d9d;
+  border: solid 1px #c5c4c4;
   width: 95%;
   bottom: 0;
+}
+@media (min-width:1024px) {
+  .border-div::before{
+  content: '';
+  position: absolute;
+  border: solid 1px #e9e9eb;
+  width: 95%;
+  top: 0;
+}
+.border-div::after{
+  content: '';
+  position: absolute;
+  border: solid 1px #e9e9eb;
+  width: 95%;
+  bottom: 0;
+}
+  
 }
 .border-div-purple{
   padding-top: 2.5rem;
@@ -194,6 +249,16 @@ body {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+@media (min-width:1024px) {
+  .border-div-purple{
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
 }
 .sub-border-div-purple{
   display: flex !important;
@@ -205,14 +270,14 @@ body {
 .border-div-purple::before{
   content: '';
   position: absolute;
-  border: solid 1px #c0c0c0;
+  border: solid 0.1px #9c8ad3;
   width: 95%;
   top: 0;
 }
 .border-div-purple::after{
   content: '';
   position: absolute;
-  border: solid 1px #c0c0c0;
+  border: solid 0.1px #9c8ad3;
   width: 95%;
   bottom: 0;
 }
@@ -221,6 +286,103 @@ body {
   justify-content: space-between;
   align-items: center;
   padding-right: 1.5rem;
+}
+.toggle-btn {
+  background: #ededed;
+  border-radius: 2.3rem;
+  border: none;
+  width: 14rem;
+  height: 3.3rem;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.5rem;
+  font-weight: 600;
+  color: #4d4d4d;
+  overflow: hidden;
+  outline: none;
+}
+.toggle-btn .label-month,
+.toggle-btn .label-year {
+  z-index: 2;
+  width: 50%;
+  text-align: center;
+  pointer-events: none; 
+  font-size: 1rem;
+  letter-spacing: 0.1rem;
+}
+.toggle-btn .label-month {
+  z-index: 2;
+  width: 50%;
+  text-align: center;
+}
+.toggle-btn .label-year {
+  z-index: 2;
+  width: 50%;
+  text-align: center;
+}
+.toggle-btn .thumb {
+  position: absolute;
+  top: 50%;
+  left: 0.5rem;
+  transform: translateY(-50%);
+  width: 50%;
+  height: 70%;
+  background: #ffffff;
+  border-radius: 2rem;
+  transition: left 0.35s ease-in-out;
+  z-index: 1;
+}
+.toggle-btn.toggle .thumb {
+  left: 45%;
+}
+.toggle-btn:not(.toggle) .label-month { color: #505050; }   
+.toggle-btn:not(.toggle) .label-year  { color: #9f9f9f; }   
+
+.toggle-btn.toggle .label-month { color: #9f9f9f; }         
+.toggle-btn.toggle .label-year  { color: #505050; }   
+
+@media (min-width:1024px) {
+  .toggle-btn .label-month,
+.toggle-btn .label-year {
+  z-index: 2;
+  width: 50%;
+  text-align: center;
+  pointer-events: none; 
+  font-size: 0.7rem;
+  letter-spacing: 0.1rem;
+}
+.toggle-btn {
+  background: #ededed;
+  border-radius: 2.3rem;
+  border: none;
+  width: 12rem;
+  height: 2.5rem;
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 0.5rem;
+  font-weight: 600;
+  color: #4d4d4d;
+  overflow: hidden;
+  outline: none;
+}
+.toggle-btn .thumb {
+  position: absolute;
+  top: 50%;
+  left: 0.5rem;
+  transform: translateY(-50%);
+  width: 49%;
+  height: 70%;
+  background: #ffffff;
+  border-radius: 2rem;
+  transition: left 0.35s ease-in-out;
+  z-index: 1;
+}
 }
 /* .off-white-check{  
   color: #ffff !important;

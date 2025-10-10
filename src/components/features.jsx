@@ -141,16 +141,7 @@ const Features = () => {
                 </p>
               </div>
               <div className="flex flex-col gap-3 mt-7 items-center lg:gap-4 lg:mt-7">
-                <div className="flex flex-col gap-1.5 lg:gap-4">
-                  {/* <img
-                className="w-full h-full object-contain md:w-[35vw] lg:w-[20vw]"
-                src={Utility}
-              /> */}
-                  {/* <img
-                className="w-[80vw] md:w-[35vw] lg:w-[20vw]"
-                src={Entertainment}
-              /> */}
-                </div>
+                <div className="flex flex-col gap-1.5 lg:gap-4"></div>
                 <div>
                   <img
                     className="md:w-[50vw] lg:w-[25vw] w-[80vw] h-full sm:w-[55vw] "

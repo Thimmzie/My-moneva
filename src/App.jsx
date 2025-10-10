@@ -8,6 +8,7 @@ import Features from './components/features';
 import Initnav from './components/initnav';
 import Testimonials from './components/testimonials';
 import Pricing from './components/pricing';
+import Started from './components/started';
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <Features />
       <Testimonials />
       <Pricing />
+      <Started />
     </div>
   );
 }
