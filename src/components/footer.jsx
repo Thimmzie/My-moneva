@@ -49,7 +49,7 @@ const footer = () => {
                 onChange={handlechange}
                 id="email"
               />
-              <button className="bg-[#8a66f1] text-[#ffffff] border-0 rounded-[7rem] w-[7rem] h-[7.5vh] hover:bg-[#5a32cace] md:px-9 md:h-[7.5vh] hover:cursor-pointer transition-all duration-600 ease-out transform absolute right-1.5 text-[0.8rem] md:right-65 lg:left-55 xl:left-60">
+              <button className="bg-[#8a66f1] text-[#ffffff] border-0 rounded-[7rem] w-[7.5rem] h-[6.5vh] hover:bg-[#5a32cace] md:px-9 md:h-[7.5vh] hover:cursor-pointer transition-all duration-600 ease-out transform absolute right-1.5 text-[0.8rem] md:right-65 lg:left-55 xl:left-60">
                 Submit
               </button>
             </div>

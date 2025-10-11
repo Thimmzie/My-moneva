@@ -41,6 +41,16 @@ const navbar = () => {
   const handleNav = () => {
     setNav(!nav);
   };
+  const handleMobileLinkClick = (id) => {
+    setNav(true);
+
+    setTimeout(() => {
+      const nav = document.querySelector(`#${id}`);
+      if (nav) {
+        nav.scrollIntoView({ behavior: 'smooth' });
+      }
+    }, 500);
+  };
   return (
     <section id="home">
       <header className=" bg-[url('./assets/images/mobilebg.png')] w-max-[1240px] bg-no-repeat bg-cover flex flex-col items-center h-[85%] pt-8 lg:px-50 md:px-15 xl:px-74  lg:bg-[url('./assets/images/desktopbg.png')] ">
@@ -87,12 +97,13 @@ const navbar = () => {
             <ul className="flex-col text-[#1b1036] pt-8 text-[1rem]">
               {mobileNav.map((nav) => (
                 <li key={nav.id} className="p-4">
-                  <a
+                  <button
+                    onClick={() => handleMobileLinkClick(nav.id)}
                     className="text-[1.4rem] text-[#1b1b1b] font-bold"
                     href={`#${nav.id}`}
                   >
                     {nav.title}
-                  </a>
+                  </button>
                 </li>
               ))}
             </ul>
