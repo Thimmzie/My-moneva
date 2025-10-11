@@ -85,7 +85,6 @@ const started = () => {
 
     gsap.from('.journey-btn', {
       y: 120,
-      opacity: 0,
       duration: 1.1,
       opacity: 1,
       ease: 'power1.inOut',

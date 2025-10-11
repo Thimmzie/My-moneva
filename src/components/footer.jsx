@@ -243,7 +243,7 @@ const footer = () => {
         </div>
       </div>
       <div className="w-[90%] h-[0.1rem] bg-[#f0f0f0] mx-auto mt-[2.2rem]"></div>
-      <div className="downpart flex gap-[1rem] justify-center mt-[2rem]">
+      <div className="downpart flex gap-[1rem] justify-center mt-[2rem] lg:gap-[2.2rem]">
         {medialinks.map((nav) => {
           return (
             <img className="hover:cursor-pointer" key={nav.id} src={nav.img} />
