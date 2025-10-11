@@ -8,6 +8,7 @@ import {
   medialinks,
 } from '../../constants';
 import { RiArrowDropDownLine } from 'react-icons/ri';
+import { SiGitignoredotio } from 'react-icons/si';
 
 const footer = () => {
   const [email, setEmail] = useState('');
