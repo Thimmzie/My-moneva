@@ -64,4 +64,37 @@ const swiperImages = [
     img: Paypal,
   },
 ];
-export { mobileNav, desktopNav, swiperImages };
+
+const companyul = [
+  { id: 'about', title: 'About us' },
+  { id: 'career', title: 'Careers' },
+  { id: 'blog', title: 'Blog' },
+  { id: 'feather', title: 'Feather internet' },
+];
+const productul = [
+  { id: 1, title: 'Features' },
+  { id: 2, title: 'Pricing' },
+  { id: 3, title: 'FAQs' },
+  { id: 4, title: 'API Access' },
+];
+const resourcesul = [
+  { id: 1, title: 'Help Center' },
+  { id: 2, title: 'User Guide' },
+  { id: 3, title: 'Financial Tips' },
+  { id: 4, title: 'Community Forum' },
+];
+const legalul = [
+  { id: 1, title: 'Privacy Policy' },
+  { id: 2, title: 'Terms of Servive' },
+  { id: 3, title: 'Financial Tips' },
+  { id: 4, title: 'Data Export & Deletion' },
+];
+export {
+  mobileNav,
+  desktopNav,
+  swiperImages,
+  companyul,
+  productul,
+  resourcesul,
+  legalul,
+};

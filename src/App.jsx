@@ -9,6 +9,7 @@ import Initnav from './components/initnav';
 import Testimonials from './components/testimonials';
 import Pricing from './components/pricing';
 import Started from './components/started';
+import Footer from './components/footer';
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
       <Testimonials />
       <Pricing />
       <Started />
+      <Footer />
     </div>
   );
 }
