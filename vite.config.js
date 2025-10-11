@@ -5,7 +5,7 @@ import svgr from '@svgr/rollup';
 
 export default defineConfig({
   plugins: [react(), tailwindcss(), svgr({ svgo: false })],
-  base: '/My-moneva',
+  base: '/',
   optimizeDeps: {
     exclude: ['lightningcss', 'fdir'],
   },

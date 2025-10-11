@@ -1,10 +1,7 @@
 import React, { useEffect } from 'react';
 import Budget from '../assets/images/budget.png';
-import Entertainment from '../assets/images/entertainment.png';
-import Utility from '../assets/images/utilities.png';
 import Savings from '../assets/images/savings-new.png';
 import Expenses from '../assets/images/expense.png';
-import InsightTwo from '../assets/images/insights-2.png';
 import InsightOne from '../assets/images/Insights-1.png';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';

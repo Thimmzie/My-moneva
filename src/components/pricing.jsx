@@ -100,7 +100,6 @@ const pricing = () => {
                     <span className="pl-1 font-extrabold text-[#272727] text-[3rem] lg:text-[1.3rem]">
                       0
                     </span>
-                    {/* <span className="text-[1.2rem]">/month</span> */}
                   </p>
                   <button className="bg-[#8a66f1] text-[#ffffff] border-0 rounded-[5rem] px-7 h-[6vh] lg:px-5 lg:text-[0.7rem] hover:cursor-pointer hover:bg-[#5a32cace]">
                     Get started
@@ -155,7 +154,6 @@ const pricing = () => {
                     <span className="pl-1 font-extrabold text-[#ffff] text-[2rem] lg:text-[1.3rem]">
                       {toggled ? '25,000' : '2,500'}
                     </span>
-                    {/* <span className="text-[1.2rem]">/month</span> */}
                   </p>
                   <button className="bg-[#ffffff] text-[#8a66f1] border-0 rounded-[5rem] px-5 h-[6vh] lg:px-5 lg:text-[0.7rem] hover:cursor-pointer hover:bg-[#f7f6f6]">
                     Get started
@@ -212,7 +210,6 @@ const pricing = () => {
                     <span className="pl-1 font-extrabold text-[#272727] text-[2rem] lg:text-[1.3rem]">
                       {toggled ? '43,000' : '4,000'}
                     </span>
-                    {/* <span className="text-[1.2rem]">/month</span> */}
                   </p>
                   <button className="bg-[#8a66f1] text-[#ffffff] border-0 rounded-[5rem] px-5 h-[6vh] lg:px-5 lg:text-[0.7rem] hover:cursor-pointer hover:bg-[#5a32cace]">
                     Get started
