@@ -57,7 +57,7 @@ const hero = () => {
     <section>
       <div className="flex flex-col items-center mt-20 gap-4 md:mt-13">
         <h2
-          className="text-[#fefefe] text-[1.8rem] font-[900] text-center md:text-[2.3rem] lg:text-[3rem] "
+          className="text-[#fefefe] text-[1.8rem] font-[900] text-center md:text-[2.3rem] lg:text-[3rem] mt-[3.9rem] "
           id="heading"
         >
           Take Control of Your
@@ -87,7 +87,11 @@ const hero = () => {
         </div>
       </div>
       <div className="mt-5 xl:mt-14">
-        <img className="my-hero" src={Herobg} alt="/" />
+        <img
+          className="my-hero w-[90%] mx-auto lg:w-[89%] xl:w-[99%]"
+          src={Herobg}
+          alt="/"
+        />
       </div>
     </section>
   );

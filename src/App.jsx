@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
 import './App.css';
+import './index.css';
 import gsap from 'gsap';
 import { ScrollTrigger, SplitText } from 'gsap/all';
 import Navbar from './components/navbar';
@@ -15,7 +16,6 @@ gsap.registerPlugin(ScrollTrigger, SplitText);
 function App() {
   return (
     <div>
-      <Initnav />
       <Navbar />
       <Sponsors />
       <Features />

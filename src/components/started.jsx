@@ -91,7 +91,7 @@ const started = () => {
       ease: 'power1.inOut',
       scrollTrigger: {
         trigger: '.journey-btn',
-        start: 'top 100%',
+        start: 'top 120%',
         scale: 0.9,
         toggleActions: 'play none none none',
       },

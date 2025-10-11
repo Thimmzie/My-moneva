@@ -3,6 +3,11 @@ import Westernunion from '../src/assets/images/Westernunion.png';
 import Shoppay from '../src/assets/images/Shoppay.png';
 import American from '../src/assets/images/American.png';
 import Paypal from '../src/assets/images/Paypal.png';
+import Facebook from '../src/assets/images/facebook link.png';
+import LinkedIn from '../src/assets/images/linkedLn link.png';
+import Twitter from '../src/assets/images/twitter link.png';
+import Instagram from '../src/assets/images/instagram link.png';
+import Gmail from '../src/assets/images/gmail link.png';
 
 const mobileNav = [
   {
@@ -89,6 +94,13 @@ const legalul = [
   { id: 3, title: 'Financial Tips' },
   { id: 4, title: 'Data Export & Deletion' },
 ];
+const medialinks = [
+  { id: 1, img: Facebook },
+  { id: 2, img: LinkedIn },
+  { id: 3, img: Twitter },
+  { id: 4, img: Instagram },
+  { id: 5, img: Gmail },
+];
 export {
   mobileNav,
   desktopNav,
@@ -97,4 +109,5 @@ export {
   productul,
   resourcesul,
   legalul,
+  medialinks,
 };
