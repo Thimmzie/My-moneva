@@ -49,7 +49,7 @@ const footer = () => {
                 onChange={handlechange}
                 id="email"
               />
-              <button className="bg-[#8a66f1] text-[#ffffff] border-0 rounded-[7rem] w-[7rem] h-[6.5vh] hover:bg-[#5a32cace] md:px-9 md:h-[7.5vh] hover:cursor-pointer transition-all duration-600 ease-out transform absolute right-1.5 text-[0.8rem] md:right-65 lg:left-55 xl:left-60">
+              <button className="bg-[#8a66f1] text-[#ffffff] border-0 rounded-[7rem] w-[7rem] h-[7.5vh] hover:bg-[#5a32cace] md:px-9 md:h-[7.5vh] hover:cursor-pointer transition-all duration-600 ease-out transform absolute right-1.5 text-[0.8rem] md:right-65 lg:left-55 xl:left-60">
                 Submit
               </button>
             </div>
@@ -243,7 +243,7 @@ const footer = () => {
         </div>
       </div>
       <div className="w-[90%] h-[0.1rem] bg-[#f0f0f0] mx-auto mt-[2.2rem]"></div>
-      <div className="downpart flex gap-[2.5rem] justify-center mt-[2rem]">
+      <div className="downpart flex gap-[1rem] justify-center mt-[2rem]">
         {medialinks.map((nav) => {
           return (
             <img className="hover:cursor-pointer" key={nav.id} src={nav.img} />

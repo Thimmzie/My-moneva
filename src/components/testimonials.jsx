@@ -155,7 +155,7 @@ const testimonials = () => {
               noSwipingClass="swiper-no-swiping"
             >
               <SwiperSlide className="swiper-no-swiping">
-                <div className="bg-[#ffff] w-[75%] h-[37vh] review-box mx-auto mt-[28rem] mb-[2rem] flex flex-col items-center justify-center gap-3 px-6 sm:w-[65%] md:px-[3rem] lg:w-[40%] lg:h-[40vh] lg:mt-[22rem]">
+                <div className="bg-[#ffff] w-[70%] h-[40vh] review-box mx-auto mt-[28rem] mb-[2rem] flex flex-col items-center justify-center gap-3 px-6 sm:w-[65%] md:px-[3rem] lg:w-[40%] lg:h-[40vh] lg:mt-[22rem]">
                   <p className="text-[#595959] font-bold tracking-wide  text-[0.9rem] text-center leading-7">
                     Moneva has completely transformed how I manage my finances.
                     The AI-powered budgeting tools make it so easy to set
@@ -169,7 +169,7 @@ const testimonials = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide className="swiper-no-swiping">
-                <div className="bg-[#ffff] w-[75%] h-[37vh] review-box mx-auto mt-[28rem] mb-[2rem] flex flex-col items-center justify-center gap-3 px-6 sm:w-[65%] md:px-[3rem] lg:w-[40%] lg:h-[40vh] lg:mt-[22rem]">
+                <div className="bg-[#ffff] w-[70%] h-[40vh] review-box mx-auto mt-[28rem] mb-[2rem] flex flex-col items-center justify-center gap-3 px-6 sm:w-[65%] md:px-[3rem] lg:w-[40%] lg:h-[40vh] lg:mt-[22rem]">
                   <p className="text-[#595959] font-bold tracking-wide  text-[0.9rem] text-center leading-7">
                     Moneva makes tracking my daily expenses effortless. The
                     clean interface lets me see exactly where my money is going,
@@ -182,7 +182,7 @@ const testimonials = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide className="swiper-no-swiping">
-                <div className="bg-[#ffff] w-[75%] h-[37vh] review-box mx-auto mt-[28rem] mb-[2rem] flex flex-col items-center justify-center gap-3 px-6 sm:w-[65%] md:px-[3rem] lg:w-[40%] lg:h-[40vh] lg:mt-[22rem] ">
+                <div className="bg-[#ffff] w-[70%] h-[40vh] review-box mx-auto mt-[28rem] mb-[2rem] flex flex-col items-center justify-center gap-3 px-6 sm:w-[65%] md:px-[3rem] lg:w-[40%] lg:h-[40vh] lg:mt-[22rem] ">
                   <p className="text-[#595959] font-bold tracking-wide  text-[0.9rem] text-center leading-7">
                     Since I started using Moneva, I’ve been able to save more
                     each month. The real-time updates and AI-driven insights
@@ -195,7 +195,7 @@ const testimonials = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide className="swiper-no-swiping">
-                <div className="bg-[#ffff] w-[75%] h-[37vh] review-box mx-auto mt-[28rem] mb-[2rem] flex flex-col items-center justify-center gap-3 px-6 sm:w-[65%] md:px-[3rem] lg:w-[40%] lg:h-[40vh] lg:mt-[22rem]">
+                <div className="bg-[#ffff] w-[70%] h-[40vh] review-box mx-auto mt-[28rem] mb-[2rem] flex flex-col items-center justify-center gap-3 px-6 sm:w-[65%] md:px-[3rem] lg:w-[40%] lg:h-[40vh] lg:mt-[22rem]">
                   <p className="text-[#595959] font-bold tracking-wide  text-[0.9rem] text-center leading-7">
                     I love how Moneva turns complex budgeting into something
                     simple. Setting financial goals and actually sticking to
@@ -208,7 +208,7 @@ const testimonials = () => {
                 </div>
               </SwiperSlide>
               <SwiperSlide className="swiper-no-swiping">
-                <div className="bg-[#ffff] w-[75%] h-[37vh] review-box mx-auto mt-[28rem] mb-[2rem] flex flex-col items-center justify-center gap-3 px-6 sm:w-[65%] md:px-[3rem] lg:w-[40%] lg:h-[40vh] lg:mt-[22rem] ">
+                <div className="bg-[#ffff] w-[70%] h-[40vh] review-box mx-auto mt-[28rem] mb-[2rem] flex flex-col items-center justify-center gap-3 px-6 sm:w-[65%] md:px-[3rem] lg:w-[40%] lg:h-[40vh] lg:mt-[22rem] ">
                   <p className="text-[#595959] font-bold tracking-wide  text-[0.9rem] text-center leading-7">
                     Moneva gives me peace of mind with its predictive alerts and
                     smart reminders. I no longer worry about overspending

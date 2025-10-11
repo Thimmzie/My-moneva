@@ -73,22 +73,32 @@ const navbar = () => {
            `}
         >
           <div className="flex justify-between mt-[1rem]">
-            <img className="object-none " src={Sitelogo} alt="/" style={{}} />
+            <img
+              className="object-none w-[30vw]"
+              src={Sitelogo}
+              alt="/"
+              style={{}}
+            />
             <div onClick={handleNav}>
-              <IoCloseSharp size={27} />
+              <IoCloseSharp size={29} />
             </div>
           </div>
           <div className="block ">
             <ul className="flex-col text-[#1b1036] pt-8 text-[1rem]">
               {mobileNav.map((nav) => (
                 <li key={nav.id} className="p-4">
-                  <a href={`#${nav.id}`}>{nav.title}</a>
+                  <a
+                    className="text-[1.4rem] text-[#1b1b1b] font-bold"
+                    href={`#${nav.id}`}
+                  >
+                    {nav.title}
+                  </a>
                 </li>
               ))}
             </ul>
           </div>
           <div className="block">
-            <button className="bg-purple text-white rounded-md px-4 py-2 mx-1 mt-2 text-[1rem]">
+            <button className="bg-purple text-white rounded-md w-[45vw] h-[7vh] mx-1 mt-2 text-[1.1rem]">
               Get started
             </button>
           </div>

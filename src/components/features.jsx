@@ -26,7 +26,7 @@ const Features = () => {
         end: 'bottom top',
         pin: true,
         pinSpacing: false,
-        scrub: true,
+        scrub: 1,
       });
     });
 
@@ -152,7 +152,6 @@ const Features = () => {
                 </div>
               </div>
             </div>
-            {/* <div className="flex flex-col gap-5 md:gap-10 lg:flex-col lg:gap-5 "> */}
             <div className="bg-[#e0f8e0] min-h-[100vh] w-[90vw] md:flex md:gap-5 px-4 pt-7 md:px-8 md:mx-14 middle-content-box lg:pt-12 lg:w-[80vw] lg:justify-center lg:gap-15">
               <div>
                 <h1 className="text-[8rem] text-[#8a66f1] font-extrabold sm:text-[10rem] lg:text-[20rem]">
@@ -227,12 +226,6 @@ const Features = () => {
                   </p>
                 </div>
                 <div className="flex gap-5 mt-17 justify-center sm:mt-18 lg:mt-10">
-                  {/* <div>
-              <img
-                className="w-[50vw] md:w-[40vw] lg:w-[21vw]"
-                src={InsightTwo}
-              />
-            </div> */}
                   <div>
                     <img
                       className="w-[80vw] h-full mt-8 md:w-[55vw] lg:w-[27vw] sm:w-[50vw] sm:mt-2"
@@ -244,32 +237,6 @@ const Features = () => {
             </div>
           </div>
         </div>
-        {/* <div className=" bg-[url('./assets/images/mobilebg.png')] bg-cover w-[90%] bg-center h-[80vh] mx-auto mt-8 rounded-xl pt-[4rem] flex flex-col items-center">
-        <div>
-          <h2 className="text-[#fcfcfc] text-[1.4rem] text-center font-extrabold">
-            Three Steps to <br className="block lg:hidden"></br> Financial
-            Freedom
-          </h2>
-        </div> */}
-        {/* <div className="flex flex-col mx-[1rem]">
-          <div className="flex mt-[3rem] gap-3 ">
-            <div>
-              <h1 className="text-[#fcfcfc] text-[1rem] font-bold bg-[#8a66f1] rounded-full flex items-center justify-center w-8 h-8">
-                1
-              </h1>
-            </div>
-            <div>
-              <h2 className="text-[#fcfcfc] text-[1.2rem] font-bold">
-                Sign Up
-              </h2>
-              <p className="text-[#ebe4e4] text-[1rem] font-light pt-3">
-                Create your account in minutes and start your
-                <br className="block lg:hidden"></br> journey to better finances
-              </p>
-            </div>
-          </div>
-        </div> */}
-        {/* </div> */}
         <div className="mt-8 lg:mt-0 ">
           <div>
             <h2 className="text-[#595959] font-[900] text-[1.6rem] text-center lg:text-[1.7rem] ">
