@@ -1,9 +1,9 @@
 {
   "root": ".",
   "build": {
-    "install": "npm install",
-    "build": "npm run build",
-    "start": "npm run preview"
+    "install": "cd .. && npm install",
+    "build": "cd .. && npm run build",
+    "start": "cd .. && npm run preview"
   },
   "output": "dist"
 }
