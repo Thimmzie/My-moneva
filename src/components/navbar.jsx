@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { mobileNav, desktopNav } from '../../constants';
-import Sitelogo from '../assets/images/Sitelogo.png';
+import Sitelogo from '../assets/images/sitelogo.png';
 import { RiMenu3Fill } from 'react-icons/ri';
 import { IoCloseSharp } from 'react-icons/io5';
 import Mobilebg from '../assets/images/mobilebg.png';
