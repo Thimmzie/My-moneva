@@ -98,7 +98,7 @@ const started = () => {
   }, []);
   return (
     <div className="mb-[7rem]">
-      <div className="mt-[10rem] bg-[#110a25] h-[93vh] w-[90%] rounded-b-2xl rounded-t-xl mx-auto flex flex-col gap-1 items-center sm:h-[95vh] md:gap-2 lg:h-[90vh] lg:flex-row lg:justify-center lg:gap-0 xl:h-[85vh] journey-box">
+      <div className="mt-[10rem] bg-[#110a25] h-[91vh] w-[90%] rounded-b-2xl rounded-t-xl mx-auto flex flex-col gap-1 items-center sm:h-[95vh] md:gap-2 lg:h-[90vh] lg:flex-row lg:justify-center lg:gap-0 xl:h-[85vh] journey-box">
         <div className="">
           <Budget className="w-[25rem] sm:w-[27rem] lg:w-[37rem] lg:mt-[3rem]" />
         </div>
