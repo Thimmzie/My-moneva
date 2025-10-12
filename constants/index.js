@@ -1,8 +1,8 @@
 import Visa from '../src/assets/images/visa.png';
-import Westernunion from '../src/assets/images/Westernunion.png';
-import Shoppay from '../src/assets/images/Shoppay.png';
-import American from '../src/assets/images/American.png';
-import Paypal from '../src/assets/images/Paypal.png';
+import Westernunion from '../src/assets/images/westernunion.png';
+import Shoppay from '../src/assets/images/shoppay.png';
+import American from '../src/assets/images/american.png';
+import Paypal from '../src/assets/images/paypal.png';
 import Facebook from '../src/assets/images/facebook link.png';
 import LinkedIn from '../src/assets/images/linkedLn link.png';
 import Twitter from '../src/assets/images/twitter link.png';
