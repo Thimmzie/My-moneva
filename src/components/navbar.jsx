@@ -102,11 +102,7 @@ const Navbar = () => {
            }`}
         >
           <div className="flex justify-between mt-[1rem]">
-            <img
-              className="object-none w-[30vw]"
-              src={Sitelogo}
-              alt="Site logo"
-            />
+            <img className="object-none" src={Sitelogo} alt="Site logo" />
             <div onClick={handleNav}>
               <IoCloseSharp size={29} />
             </div>
@@ -118,7 +114,7 @@ const Navbar = () => {
                 <li key={nav.id} className="p-4">
                   <button
                     onClick={() => handleMobileLinkClick(nav.id)}
-                    className="text-[1.4rem] text-[#1b1b1b] font-bold"
+                    className="text-[1.1rem] text-[#1b1b1b] font-bold mobile-menu"
                   >
                     {nav.title}
                   </button>
@@ -128,7 +124,7 @@ const Navbar = () => {
           </div>
 
           <div className="block">
-            <button className="bg-purple text-white rounded-md w-[45vw] h-[7vh] mx-1 mt-2 text-[1.1rem]">
+            <button className="bg-purple text-white rounded-md w-[45vw] h-[7vh] mx-1 mt-7 text-[1.1rem] sm:w-[25vw] sm:h-[8.5vh]">
               Get started
             </button>
           </div>

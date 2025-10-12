@@ -138,7 +138,7 @@ const pricing = () => {
             <div className="bg-[#7c5cd9] w-[85vw] h-[80vh] rounded-3xl pt-[3rem] px-[1.2rem] lg:w-[25vw] lg:h-[70vh] lg:pt-[2rem] price-box">
               <div className="flex standard-box">
                 <h2 className="pricing-box-title-purple">Standard</h2>
-                <p className="text-[#ffff] text-[1rem] lg:text-[0.8rem]">
+                <p className="text-[#ffff] text-[0.8rem] lg:text-[0.8rem]">
                   Recommended
                 </p>
               </div>
@@ -231,7 +231,7 @@ const pricing = () => {
                       <FaCheck className=" off-white-check m-2 text-[0.7rem] text-[#ffff] lg:text-[0.5rem] lg:m-1.5" />
                     </div>
                     <p className="text-[1rem] text-[#595959] tracking-wide font-bold lg:text-[0.8rem] lg:font-light lg:tracking-wider">
-                      Personalized Financial Insights
+                      Personalized Insights
                     </p>
                   </div>
                   <div className="flex gap-4 ">
@@ -247,7 +247,7 @@ const pricing = () => {
                       <FaCheck className=" off-white-check m-2 text-[0.7rem] text-[#ffff] lg:text-[0.5rem] lg:m-1.5" />
                     </div>
                     <p className="text-[1rem] text-[#595959] tracking-wide font-bold lg:text-[0.8rem] lg:font-light lg:tracking-wider">
-                      Priority Customer Support 24/7
+                      Customer Support 24/7
                     </p>
                   </div>
                 </ul>

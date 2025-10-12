@@ -216,10 +216,8 @@ const Features = () => {
                     Insights & Analytics
                   </h2>
                   <p className="text-[#8f8f8f] font-bold lg:font-light mt-3.5 text-[1.1rem] tracking-wide md:text-[1.2rem] lg:text-[1rem]">
-                    Understand your spending habits with
-                    <br className='"hidden md:block"'></br> in-depth
-                    <br className="hidden"></br>
-                    reports and AI-driven insights
+                    Understand your spending habits with in-depth
+                    <br className="hidden"></br> reports and AI-driven insights
                   </p>
                 </div>
                 <div className="flex gap-5 mt-17 justify-center sm:mt-18 lg:mt-10">
@@ -317,9 +315,9 @@ const Features = () => {
               <div className="flex flex-col items-baseline">
                 <p className="text-[#595959] text-[1rem] font-bold mt-[8rem] leading-10 px-[2rem] ">
                   Every expense you track brings you closer
-                  <br className="block sm:hidden lg:hidden"></br> to the bigger
+                  <br className="hidden sm:hidden lg:hidden"></br> to the bigger
                   picture. Stay consistent and
-                  <br className="block sm:hidden lg:hidden"></br> watch your
+                  <br className="hidden sm:hidden lg:hidden"></br> watch your
                   goals become reality.
                 </p>
               </div>

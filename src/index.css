@@ -54,7 +54,7 @@ body {
   border: solid #595959 2px;
   border-radius: 5rem;
   padding: 1.3rem;
-  right: 1% !important;
+  right: 2% !important;
   position: absolute;
   top: 75% !important;
   cursor: pointer;
@@ -66,7 +66,7 @@ body {
   border: solid #595959 2px;
   border-radius: 5rem;
   padding: 1.3rem;
-  left: 1% !important;
+  left: 2% !important;
   position: absolute;
   top: 75% !important;
   cursor: pointer;
@@ -430,4 +430,16 @@ body {
   justify-content: space-between;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.mobile-menu {
+  position: relative;
+  border-bottom: solid 0.1rem #d8d8d8;
+  padding-bottom: 0.7rem;
+  width: 100%;
+  text-align: start;
+}
+
+.mobile-menu span {
+  display: inline-block;
 }
