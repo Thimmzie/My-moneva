@@ -3,11 +3,11 @@ import Westernunion from '../src/assets/images/westernunion.png';
 import Shoppay from '../src/assets/images/shoppay.png';
 import American from '../src/assets/images/american.png';
 import Paypal from '../src/assets/images/paypal.png';
-import Facebook from '../src/assets/images/facebook link.png';
-import LinkedIn from '../src/assets/images/linkedLn link.png';
-import Twitter from '../src/assets/images/twitter link.png';
-import Instagram from '../src/assets/images/instagram link.png';
-import Gmail from '../src/assets/images/gmail link.png';
+import Facebook from '../src/assets/images/facebook.png';
+import LinkedIn from '../src/assets/images/linkedin.png';
+import Twitter from '../src/assets/images/twitter.png';
+import Instagram from '../src/assets/images/instagram.png';
+import Gmail from '../src/assets/images/gmail.png';
 
 const mobileNav = [
   {
