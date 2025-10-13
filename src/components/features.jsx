@@ -1,8 +1,8 @@
 import React, { useEffect } from 'react';
-import Budget from '../assets/images/budget.png';
-import Savings from '../assets/images/savings-new.png';
-import Expenses from '../assets/images/expense.png';
-import InsightOne from '../assets/images/insights-1.png';
+import Budget from '../assets/images/budgetingv.svg';
+import Savings from '../assets/images/savingsv.svg';
+import Expenses from '../assets/images/expensev.svg';
+import InsightOne from '../assets/images/insightsv.svg';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/all';
 
@@ -142,7 +142,7 @@ const Features = () => {
                   <div className="flex flex-col gap-1.5 lg:gap-4"></div>
                   <div>
                     <img
-                      className="md:w-[50vw] lg:w-[25vw] w-[80vw] h-full sm:w-[55vw] "
+                      className="md:w-[50vw] lg:w-[25vw] w-[80vw] h-full sm:w-[55vw] mt-6 feature-img"
                       src={Budget}
                     />
                   </div>
@@ -169,7 +169,7 @@ const Features = () => {
                 </div>
                 <div className="lg:flex lg:flex-col lg:items-center">
                   <img
-                    className="w-[80vw] mt-15 md:w-[50vw] lg:w-[25vw] lg:mt-15 sm:w-[55vw] sm:mx-auto"
+                    className="w-[80vw] mt-15 md:w-[50vw] lg:w-[25vw] lg:mt-15 sm:w-[55vw] sm:mx-auto feature-img"
                     src={Savings}
                   />
                 </div>
@@ -194,10 +194,10 @@ const Features = () => {
                     amount, or category
                   </p>
                 </div>
-                <div className="flex justify-end -mx-4 md:-mx-8 lg:-mx-4">
+                <div className="lg:flex lg:flex-col lg:items-center">
                   <div>
                     <img
-                      className="w-[80vw] mt-25 mb-12 sm:mb-14 md:w-[67vw] lg:w-[31vw] lg:mt-18 sm:w-[70vw]"
+                      className="w-[80vw] mt-25 md:w-[50vw] lg:w-[25vw] lg:mt-15 sm:w-[55vw] sm:mx-auto feature-img"
                       src={Expenses}
                     />
                   </div>
@@ -220,10 +220,10 @@ const Features = () => {
                     <br className="hidden"></br> reports and AI-driven insights
                   </p>
                 </div>
-                <div className="flex gap-5 mt-17 justify-center sm:mt-18 lg:mt-10">
+                <div className="flex gap-5 mt-5 justify-center sm:mt-18 lg:mt-5">
                   <div>
                     <img
-                      className="w-[80vw] h-full mt-8 md:w-[55vw] lg:w-[27vw] sm:w-[50vw] sm:mt-2"
+                      className="w-[80vw] h-full mt-4 md:w-[55vw] lg:w-[27vw] sm:w-[50vw] sm:mt-2 feature-img"
                       src={InsightOne}
                     />
                   </div>

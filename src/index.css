@@ -443,3 +443,8 @@ body {
 .mobile-menu span {
   display: inline-block;
 }
+.feature-img {
+  /* border: solid #fffdfd 2px; */
+  padding: 0.5rem;
+  border-radius: 6px;
+}
