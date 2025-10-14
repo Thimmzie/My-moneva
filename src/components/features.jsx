@@ -121,7 +121,7 @@ const Features = () => {
           </div>
 
           <div className="mt-7 flex flex-col items-center gap-5 md:gap-10 lg:gap-0 mb-50 ">
-            <div className="bg-[#ede8fd] min-h-[100vh] w-[90vw] px-4 pt-7 lg:pt-12 md:px-8 md:mx-14 flex flex-col lg:flex-row md:flex-row md:gap-7 lg:justify-center lg:gap-25 lg:px-12 content-box lg:w-[80vw] ">
+            <div className="bg-[#ede8fd] h-[100vh] w-[90vw] px-4 pt-7 lg:pt-12 md:px-8 md:mx-14 flex flex-col lg:flex-row md:flex-row md:gap-7 lg:justify-center lg:gap-25 lg:px-12 content-box lg:w-[80vw] ">
               <div>
                 <h1 className="text-[8rem] text-[#8a66f1] font-extrabold sm:text-[10rem] lg:text-[20rem]">
                   01
@@ -142,14 +142,14 @@ const Features = () => {
                   <div className="flex flex-col gap-1.5 lg:gap-4"></div>
                   <div>
                     <img
-                      className="md:w-[50vw] lg:w-[25vw] w-[80vw] h-full sm:w-[55vw] mt-6 feature-img"
+                      className="md:w-[50vw] lg:w-[30vw] w-[80vw] h-full sm:w-[55vw] mt-6 feature-img"
                       src={Budget}
                     />
                   </div>
                 </div>
               </div>
             </div>
-            <div className="bg-[#e0f8e0] min-h-[100vh] w-[90vw] md:flex md:gap-5 px-4 pt-7 md:px-8 md:mx-14 middle-content-box lg:pt-12 lg:w-[80vw] lg:justify-center lg:gap-15">
+            <div className="bg-[#e0f8e0] h-[100vh] w-[90vw] md:flex md:gap-5 px-4 pt-7 md:px-8 md:mx-14 middle-content-box lg:pt-12 lg:w-[80vw] lg:justify-center lg:gap-15">
               <div>
                 <h1 className="text-[8rem] text-[#8a66f1] font-extrabold sm:text-[10rem] lg:text-[20rem]">
                   02
@@ -176,7 +176,7 @@ const Features = () => {
               </div>
             </div>
 
-            <div className="bg-[#ffe4e4] min-h-[100vh] w-[90vw] px-4 pt-7 md:px-8 md:mx-14 md:flex-row md:gap-5 middle-content-box lg:mx-23 lg:px-4 flex flex-col lg:pl-12 lg:w-[80vw] lg:justify-center lg:gap-15">
+            <div className="bg-[#ffe4e4] h-[100vh] w-[90vw] px-4 pt-7 md:px-8 md:mx-14 md:flex-row md:gap-5 middle-content-box lg:mx-23 lg:px-4 flex flex-col lg:pl-12 lg:w-[80vw] lg:justify-center lg:gap-15">
               <div>
                 <h1 className="text-[8rem] text-[#8a66f1] font-extrabold sm:text-[10rem] lg:text-[20rem]">
                   03
@@ -197,14 +197,14 @@ const Features = () => {
                 <div className="lg:flex lg:flex-col lg:items-center">
                   <div>
                     <img
-                      className="w-[80vw] mt-25 md:w-[50vw] lg:w-[25vw] lg:mt-15 sm:w-[55vw] sm:mx-auto feature-img"
+                      className="w-[80vw] mt-25 md:w-[50vw] lg:w-[30vw] lg:mt-15 sm:w-[55vw] sm:mx-auto feature-img"
                       src={Expenses}
                     />
                   </div>
                 </div>
               </div>
             </div>
-            <div className="bg-[#fff7d9] min-h-[100vh] w-[90vw] pt-7 px-4 md:px-8 md:flex-row md:gap-5 md:mx-14 end-content-box lg:mx-23 flex flex-col lg:flex-row lg:gap-25 lg:px-12 lg:pt-12 lg:w-[80vw] lg:justify-center lg:gap-25">
+            <div className="bg-[#fff7d9] h-[100vh] w-[90vw] pt-7 px-4 md:px-8 md:flex-row md:gap-5 md:mx-14 end-content-box lg:mx-23 flex flex-col lg:flex-row lg:gap-25 lg:px-12 lg:pt-12 lg:w-[80vw] lg:justify-center lg:gap-25">
               <div>
                 <h1 className="text-[8rem] text-[#8a66f1] font-extrabold sm:text-[10rem] lg:text-[20rem]">
                   04
@@ -216,14 +216,15 @@ const Features = () => {
                     Insights & Analytics
                   </h2>
                   <p className="text-[#8f8f8f] font-bold lg:font-light mt-3.5 text-[1.1rem] tracking-wide md:text-[1.2rem] lg:text-[1rem]">
-                    Understand your spending habits with in-depth
+                    Understand your spending habits with{' '}
+                    <br className="hidden lg:block"></br> in-depth
                     <br className="hidden"></br> reports and AI-driven insights
                   </p>
                 </div>
-                <div className="flex gap-5 mt-5 justify-center sm:mt-18 lg:mt-5">
+                <div className=" mt-5 justify-center sm:mt-18 lg:mt-5">
                   <div>
                     <img
-                      className="w-[80vw] h-full mt-4 md:w-[55vw] lg:w-[27vw] sm:w-[50vw] sm:mt-2 feature-img"
+                      className="w-[90vw] mt-30 md:w-[55vw] lg:w-[30vw] sm:w-[50vw] sm:mt-2 feature-img"
                       src={InsightOne}
                     />
                   </div>
