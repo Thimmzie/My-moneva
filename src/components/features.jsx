@@ -204,7 +204,7 @@ const Features = () => {
                 </div>
               </div>
             </div>
-            <div className="bg-[#fff7d9] h-[100vh] w-[90vw] pt-7 px-4 md:px-8 md:flex-row md:gap-5 md:mx-14 end-content-box lg:mx-23 flex flex-col lg:flex-row lg:gap-25 lg:px-12 lg:pt-12 lg:w-[80vw] lg:justify-center lg:gap-25">
+            <div className="bg-[#fff7d9] h-[100vh] w-[90vw] pt-7 px-4 md:px-8 md:flex-row md:gap-5 md:mx-14 end-content-box lg:mx-23 flex flex-col lg:flex-row lg:px-12 lg:pt-12 lg:w-[80vw] lg:justify-center lg:gap-25">
               <div>
                 <h1 className="text-[8rem] text-[#8a66f1] font-extrabold sm:text-[10rem] lg:text-[20rem]">
                   04
@@ -224,7 +224,7 @@ const Features = () => {
                 <div className=" mt-5 justify-center sm:mt-18 lg:mt-5">
                   <div>
                     <img
-                      className="w-[90vw] mt-30 md:w-[55vw] lg:w-[30vw] sm:w-[50vw] sm:mt-2 feature-img"
+                      className="w-[90vw] mt-20 md:w-[55vw] lg:w-[30vw] sm:w-[50vw] sm:mt-2 feature-img"
                       src={InsightOne}
                     />
                   </div>
@@ -233,13 +233,13 @@ const Features = () => {
             </div>
           </div>
         </div>
-        <div className="mt-8 lg:mt-0 ">
+        <div className="mt-8 lg:mt-0 bg-[#f7f3f3] rounded-3xl px-[0.5rem] py-[3rem] w-[90vw] lg:w-[80vw] mx-auto">
           <div>
             <h2 className="text-[#595959] font-[900] text-[1.6rem] text-center lg:text-[1.7rem] ">
               Get Started
             </h2>
           </div>
-          <div className="mt-12 flex flex-col gap-7 md:grid md:grid-cols-2 md:gap-20 ">
+          <div className="mt-12 flex flex-col gap-14 md:grid md:grid-cols-2 md:gap-20 ">
             <div className="relative ">
               <h2 className="bg-[#8a66f1] w-[10rem] h-[4.5rem] text-white text-[1.2rem] static flex justify-center items-center font-extrabold ml-[2rem] lg:text-[1.3rem]">
                 Create
@@ -252,11 +252,11 @@ const Features = () => {
               <div className="flex flex-col items-baseline px-[2rem]">
                 <p className="text-[#595959] text-[1rem] font-bold mt-[8rem] leading-10">
                   Create your account in minutes and start
-                  <br className="block sm:hidden lg:hidden"></br> your journey
+                  <br className="hidden sm:hidden lg:hidden"></br> your journey
                   to better finances, gain full
-                  <br className="block sm:hidden lg:hidden"></br>
+                  <br className="hidden sm:hidden lg:hidden"></br>
                   control over your spending, and achieve
-                  <br className="block sm:hidden lg:hidden"></br> your goals
+                  <br className="hidden sm:hidden lg:hidden"></br> your goals
                   faster.
                 </p>
               </div>
@@ -273,11 +273,12 @@ const Features = () => {
               <div className="flex flex-col items-baseline">
                 <p className="text-[#595959] text-[1rem] font-bold mt-[8rem] leading-10 px-[2rem]">
                   Define your spending category and set
-                  <br className="block sm:hidden lg:hidden"></br> achievable
+                  <br className="hidden sm:hidden lg:hidden"></br> achievable
                   goals to track your progress,
-                  <br className="block sm:hidden  lg:hidden"></br> build better
+                  <br className="hidden sm:hidden  lg:hidden"></br> build better
                   habits, and stay in control of
-                  <br className="block sm:hidden lg:hidden"></br> your finances.
+                  <br className="hidden sm:hidden lg:hidden"></br> your
+                  finances.
                 </p>
               </div>
             </div>
@@ -293,13 +294,13 @@ const Features = () => {
               <div className="flex flex-col items-baseline">
                 <p className="text-[#595959] text-[1rem] font-bold mt-[8rem] leading-10 px-[2rem]">
                   Monitor your progress with real-time
-                  <br className="block sm:hidden lg:hidden"></br> updates and
+                  <br className="hidden sm:hidden lg:hidden"></br> updates and
                   AI-driven insights that help
-                  <br className="block sm:hidden lg:hidden"></br> you identify
+                  <br className="hidden sm:hidden lg:hidden"></br> you identify
                   patterns, discover smarter
-                  <br className="block sm:hidden lg:hidden"></br> ways to save,
+                  <br className="hidden sm:hidden lg:hidden"></br> ways to save,
                   and make confident
-                  <br className="block sm:hidden lg:hidden"></br> financial
+                  <br className="hidden sm:hidden lg:hidden"></br> financial
                   decisions every step of the way.
                 </p>
               </div>
