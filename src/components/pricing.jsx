@@ -68,7 +68,7 @@ const pricing = () => {
           <h2 className="text-[#595959] text-[1.48rem] font-extrabold text-center md:text-[1.68rem] lg:text-[1.8rem] xl:text-[2.1rem] pricing-amazing">
             Flexible Plan for Every Budget
           </h2>
-          <p className="text-[#8f8f8f] text-center text-[1rem] md:text-[1.2rem] lg:text-[1.1rem] xl:text-[1rem] pricing-maximize font-bold lg:font-light mx-2">
+          <p className="text-[#8f8f8f] text-center text-[1rem] md:text-[1.2rem] lg:text-[1.2rem] xl:text-[1.2rem] pricing-maximize font-bold lg:font-[500] mx-2">
             Whether you’re new to budgeting or ready for
             <br className="block lg:hidden"></br> advanced insights,
             <br className="hidden lg:block"></br>

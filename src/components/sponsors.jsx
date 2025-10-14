@@ -16,7 +16,7 @@ const sponsors = () => {
             companies partner
           </h1>
         </div>
-        <div className="w-full md:flex-1 min-w-0 mt-[3rem] md:mt-3">
+        <div className="w-full md:flex-1 min-w-0 mt-[1.8rem] md:mt-3">
           <Swiper
             modules={[Autoplay]}
             speed={3000}
