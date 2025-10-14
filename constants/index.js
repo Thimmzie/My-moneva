@@ -1,5 +1,5 @@
 import Visa from '../src/assets/images/visa.png';
-import Westernunion from '../src/assets/images/westernunion.png';
+import Westernunion from '../src/assets/images/western.png';
 import Shoppay from '../src/assets/images/shoppay.png';
 import American from '../src/assets/images/american.png';
 import Paypal from '../src/assets/images/paypal.png';

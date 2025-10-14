@@ -18,9 +18,9 @@ body {
   h2 {
     font-weight: 600;
   }
-  p {
+  /* p {
     font-weight: 600;
-  }
+  } */
 }
 .mon-sec-head {
   border: solid rgb(128, 128, 128, 0.2) 0.1rem;

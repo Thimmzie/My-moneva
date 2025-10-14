@@ -64,7 +64,7 @@ const hero = () => {
           <span className="block text-center">Finances with Moneva</span>
         </h2>
         <p
-          className="text-[#c3c1c8] text-center text-[1rem] md:text-[1.1rem] lg:text-[1rem]"
+          className="text-[#c3c1c8] text-center text-[1rem] md:text-[1.1rem] lg:text-[1rem] font-light"
           id="body"
         >
           Your all-in-one tool for managing budgets,

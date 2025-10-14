@@ -111,7 +111,7 @@ const Features = () => {
                 <br className="block lg:hidden" /> you
                 <br className="hidden lg:flex" /> manage your money
               </h2>
-              <p className="text-[#8f8f8f] text-center text-[1rem] md:text-[1.2rem] lg:text-[1.1rem] xl:text-[1rem] maximize font-bold lg:font-light">
+              <p className="text-[#8f8f8f] text-center text-[1rem] md:text-[1.2rem] lg:text-[1.1rem] xl:text-[1rem] maximize font-[500]">
                 Maximize your finances with our user friendly
                 <br className="block lg:hidden" /> features that help
                 <br className="hidden lg:flex" /> you track and manage your

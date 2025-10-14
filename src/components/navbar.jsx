@@ -72,7 +72,7 @@ const Navbar = () => {
           <img className="object-none" src={Sitelogo} alt="Site logo" />
 
           <div className="hidden lg:flex xl:text-[0.9rem]">
-            <ul className="flex gap-6 items-center text-[#616161]">
+            <ul className="flex gap-6 items-center text-[#616161] font-[500]">
               {desktopNav.map((nav) => (
                 <li
                   key={nav.id}
@@ -114,7 +114,7 @@ const Navbar = () => {
                 <li key={nav.id} className="p-4">
                   <button
                     onClick={() => handleMobileLinkClick(nav.id)}
-                    className="text-[1.1rem] text-[#1b1b1b] font-[600] mobile-menu"
+                    className="text-[1.1rem] text-[#1b1b1b] font-[500] mobile-menu"
                   >
                     {nav.title}
                   </button>
