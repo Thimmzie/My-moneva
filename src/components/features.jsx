@@ -250,7 +250,7 @@ const Features = () => {
                 </p>
               </div>
               <div className="flex flex-col items-baseline px-[2rem]">
-                <p className="text-[#595959] text-[1rem] font-bold mt-[8rem] leading-10">
+                <p className="text-[#595959] text-[1rem] mt-[8rem] leading-10">
                   Create your account in minutes and start
                   <br className="hidden sm:hidden lg:hidden"></br> your journey
                   to better finances, gain full

@@ -80,8 +80,8 @@ const pricing = () => {
             className={`toggle-btn ${toggled ? 'toggle' : ''}`}
             onClick={() => setToggled(!toggled)}
           >
-            <span className="label-month">Monthly</span>
-            <span className="label-year">Annually</span>
+            <span className="label-month font-[500]">Monthly</span>
+            <span className="label-year font-[500]">Annually</span>
             <div className="thumb"></div>
           </button>
         </div>
@@ -97,7 +97,7 @@ const pricing = () => {
                 <div className="sub-border-div">
                   <p className="text-[#595959] text-[1rem] ml-[1rem] lg:text-[0.8rem]">
                     &#8358;
-                    <span className="pl-1 font-extrabold text-[#272727] text-[3rem] lg:text-[1.3rem]">
+                    <span className="pl-1 font-extrabold text-[#272727] text-[3rem] lg:text-[1.5rem]">
                       0
                     </span>
                   </p>
@@ -151,7 +151,7 @@ const pricing = () => {
                 <div className="sub-border-div-purple">
                   <p className="text-[#ffff] text-[1rem] lg:text-[0.8rem]">
                     &#8358;
-                    <span className="pl-1 font-extrabold text-[#ffff] text-[2rem] lg:text-[1.3rem]">
+                    <span className="pl-1 font-extrabold text-[#ffff] text-[2rem] lg:text-[1.5rem]">
                       {toggled ? '25,000' : '2,500'}
                     </span>
                   </p>
@@ -207,7 +207,7 @@ const pricing = () => {
                 <div className="sub-border-div">
                   <p className="text-[#595959] text-[1rem] lg:text-[0.8rem]">
                     &#8358;
-                    <span className="pl-1 font-extrabold text-[#272727] text-[2rem] lg:text-[1.3rem]">
+                    <span className="pl-1 font-extrabold text-[#272727] text-[2rem] lg:text-[1.5rem]">
                       {toggled ? '43,000' : '4,000'}
                     </span>
                   </p>

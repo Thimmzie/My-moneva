@@ -114,7 +114,7 @@ const Navbar = () => {
                 <li key={nav.id} className="p-4">
                   <button
                     onClick={() => handleMobileLinkClick(nav.id)}
-                    className="text-[1.1rem] text-[#1b1b1b] font-bold mobile-menu"
+                    className="text-[1.1rem] text-[#1b1b1b] font-[600] mobile-menu"
                   >
                     {nav.title}
                   </button>
