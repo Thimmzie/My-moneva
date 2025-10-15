@@ -250,7 +250,7 @@ const Features = () => {
                 </p>
               </div>
               <div className="flex flex-col items-baseline px-[2rem]">
-                <p className="text-[1.1rem] text-[#1b1b1b] font-[500] mt-[8rem] leading-10">
+                <p className="text-[1.1rem] text-[#595959] font-[500] mt-[8rem] leading-10">
                   Create your account in minutes and start
                   <br className="hidden sm:hidden lg:hidden"></br> your journey
                   to better finances, gain full
@@ -271,7 +271,7 @@ const Features = () => {
                 </p>
               </div>
               <div className="flex flex-col items-baseline">
-                <p className="text-[1.1rem] text-[#1b1b1b] font-[500] mt-[8rem] leading-10 px-[2rem]">
+                <p className="text-[1.1rem] text-[#595959] font-[500] mt-[8rem] leading-10 px-[2rem]">
                   Define your spending category and set
                   <br className="hidden sm:hidden lg:hidden"></br> achievable
                   goals to track your progress,
@@ -292,7 +292,7 @@ const Features = () => {
                 </p>
               </div>
               <div className="flex flex-col items-baseline">
-                <p className="text-[1.1rem] text-[#1b1b1b] font-[500] mt-[8rem] leading-10 px-[2rem]">
+                <p className="text-[1.1rem] text-[#595959] font-[500] mt-[8rem] leading-10 px-[2rem]">
                   Monitor your progress with real-time
                   <br className="hidden sm:hidden lg:hidden"></br> updates and
                   AI-driven insights that help
@@ -315,7 +315,7 @@ const Features = () => {
                 </p>
               </div>
               <div className="flex flex-col items-baseline">
-                <p className="text-[1.1rem] text-[#1b1b1b] font-[500] mt-[8rem] leading-10 px-[2rem] ">
+                <p className="text-[1.1rem] text-[#595959] font-[500] mt-[8rem] leading-10 px-[2rem] ">
                   Every expense you track brings you closer
                   <br className="hidden sm:hidden lg:hidden"></br> to the bigger
                   picture. Stay consistent and
