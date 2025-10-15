@@ -57,7 +57,7 @@ const hero = () => {
     <section>
       <div className="flex flex-col items-center mt-20 gap-4 md:mt-13">
         <h2
-          className="text-[#fefefe] text-[2rem] font-[600] text-center md:text-[2.3rem] lg:text-[3rem] mt-[3.9rem] "
+          className="text-[#fefefe] text-[2rem] font-[500] text-center md:text-[2.3rem] lg:text-[3rem] mt-[3.9rem] "
           id="heading"
         >
           Take Control of Your

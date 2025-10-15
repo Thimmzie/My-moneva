@@ -160,7 +160,7 @@ const testimonials = () => {
                     The AI-powered budgeting tools make it so easy to set
                     realistic limits and stick to them.
                   </p>
-                  <h4 className="text-[#2b2929] font-[600] text-[1rem]">
+                  <h4 className="text-[#0a0a0a] font-[500] text-[1rem]">
                     Adetayo Johnson
                   </h4>
                   <img src={Star} />
@@ -173,7 +173,7 @@ const testimonials = () => {
                     clean interface lets me see exactly where my money is going,
                     and the custom categories keep everything organized.
                   </p>
-                  <h4 className="text-[#2b2929] font-[500] text-[1rem]">
+                  <h4 className="text-[#0a0a0a] font-[500] text-[1rem]">
                     Daniel Ezinne
                   </h4>
                   <img src={Star} />
@@ -186,7 +186,7 @@ const testimonials = () => {
                     each month. The real-time updates and AI-driven insights
                     give me clarity and confidence in my financial decisions.
                   </p>
-                  <h4 className="text-[#2b2929] font-[500] text-[1rem]">
+                  <h4 className="text-[#0a0a0a] font-[500] text-[1rem]">
                     Mercy Odubona
                   </h4>
                   <img src={Star} />
@@ -199,7 +199,7 @@ const testimonials = () => {
                     simple. Setting financial goals and actually sticking to
                     them has never been this easy or stress-free.
                   </p>
-                  <h4 className="text-[#2b2929] font-[500] text-[1rem]">
+                  <h4 className="text-[#0a0a0a] font-[500] text-[1rem]">
                     Emeka Peters
                   </h4>
                   <img src={Star} />
@@ -212,7 +212,7 @@ const testimonials = () => {
                     smart reminders. I no longer worry about overspending
                     because I always know what’s ahead.
                   </p>
-                  <h4 className="text-[#2b2929] font-[500] text-[1rem]">
+                  <h4 className="text-[#0a0a0a] font-[500] text-[1rem]">
                     Ruth Danjuma
                   </h4>
                   <img src={Star} />
