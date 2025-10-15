@@ -34,13 +34,13 @@ const footer = () => {
         <div>
           <div>
             <img className="w-[8.5rem]" src={Logo} />
-            <p className="text-[#7e7e7e] text-[1.1rem] mt-6 font-bold md:leading-9 lg:text-[0.9rem] lg:leading-7 lg:font-light">
+            <p className="text-[#7e7e7e] text-[1.1rem] mt-6 font-[500] md:leading-9 lg:text-[0.9rem] lg:leading-7 lg:font-light">
               Take control of your finances today and{' '}
               <br className=" hidden sm:hidden md:block"></br>watch your
               financial dreams become reality.
             </p>
           </div>
-          <div className="search text-[#7e7e7e] text-[1.1rem] mt-10 font-bold lg:text-[0.9rem] lg:font-light">
+          <div className="search text-[#7e7e7e] text-[1.1rem] mt-10 font-[400] lg:text-[0.9rem] lg:font-light">
             <p>Follow our latest news</p>
             <div className="mt-3 relative">
               <input
@@ -59,7 +59,7 @@ const footer = () => {
         <div className="flex flex-col gap-[2rem] mt-[3rem] md:flex-row lg:gap-[5rem]">
           <div className="quick-link-div">
             <div>
-              <p className="text-[#595959] text-[1.25rem] font-bold lg:text-[1rem]">
+              <p className="text-[#595959] text-[1.25rem] font-[500] lg:text-[1rem]">
                 Company
               </p>
               <div className="hidden md:block ">
@@ -105,7 +105,7 @@ const footer = () => {
           </div>
           <div className="quick-link-div">
             <div>
-              <p className="text-[#595959] text-[1.25rem] font-bold lg:text-[1rem]">
+              <p className="text-[#595959] text-[1.25rem] font-[500] lg:text-[1rem]">
                 Product
               </p>
               <div className="hidden md:block ">
@@ -151,7 +151,7 @@ const footer = () => {
           </div>
           <div className="quick-link-div">
             <div>
-              <p className="text-[#595959] text-[1.25rem] font-bold lg:text-[1rem]">
+              <p className="text-[#595959] text-[1.25rem] font-[500] lg:text-[1rem]">
                 Resources
               </p>
               <div className="hidden md:block ">
@@ -197,7 +197,7 @@ const footer = () => {
           </div>
           <div className="quick-link-div">
             <div>
-              <p className="text-[#595959] text-[1.25rem] font-bold lg:text-[1rem]">
+              <p className="text-[#595959] text-[1.25rem] font-[500] lg:text-[1rem]">
                 Legal
               </p>
               <div className="hidden md:block ">

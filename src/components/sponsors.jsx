@@ -11,9 +11,9 @@ const sponsors = () => {
     <div className="my-10 ">
       <div className="md:flex md:overflow-hidden">
         <div className="md:w-[40%] lg:w-[30%]">
-          <h1 className="text-[#595959] font-[500] lg:font-[700] text-[1.6rem] text-center sm:text-[1.5rem] md:text-[1.5rem]  mb-5 ">
+          <h1 className="text-[#595959] font-[600] lg:font-[700] text-[1.6rem] text-center sm:text-[1.5rem] md:text-[1.5rem]  mb-5 ">
             More than 100+<br></br>
-            companies partner fff
+            companies partner
           </h1>
         </div>
         <div className="w-full md:flex-1 min-w-0 mt-[1.8rem] md:mt-3">

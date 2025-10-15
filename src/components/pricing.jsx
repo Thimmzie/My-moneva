@@ -60,17 +60,17 @@ const pricing = () => {
     <section id="pricing">
       <div className="mb-10">
         <div className="w-fit mx-auto">
-          <p className="px-5 py-1 mon-sec-head lg:text-[0.7rem] font-bold lg:font-light">
+          <p className="px-5 py-1 mon-sec-head lg:text-[0.7rem] font-[500] lg:font-light">
             Pricing
           </p>
         </div>
         <div className="flex flex-col gap-6 mt-4 items-center">
-          <h2 className="text-[#595959] text-[1.48rem] font-extrabold text-center md:text-[1.68rem] lg:text-[1.8rem] xl:text-[2.1rem] pricing-amazing">
+          <h2 className="text-[#595959] text-[1.48rem] font-[500] text-center md:text-[1.68rem] lg:text-[1.8rem] xl:text-[2.1rem] pricing-amazing">
             Flexible Plan for Every Budget
           </h2>
-          <p className="text-[#8f8f8f] text-center text-[1rem] md:text-[1.2rem] lg:text-[1.2rem] xl:text-[1.2rem] pricing-maximize font-bold lg:font-[500] mx-2">
+          <p className="text-[#8f8f8f] text-center text-[1rem] md:text-[1.2rem] lg:text-[1.2rem] xl:text-[1.2rem] pricing-maximize font-[500] lg:font-[500] mx-2">
             Whether you’re new to budgeting or ready for
-            <br className="block lg:hidden"></br> advanced insights,
+            <br className="hidden lg:hidden"></br> advanced insights,
             <br className="hidden lg:block"></br>
             there’s a plan for everyone
           </p>
@@ -89,7 +89,7 @@ const pricing = () => {
           <div className="monthly flex flex-col gap-10 items-center lg:flex-row lg:justify-center">
             <div className="bg-[#e0e0e0] w-[85vw] h-[80vh] rounded-3xl pt-[3rem] px-[1.2rem] lg:w-[25vw] lg:h-[70vh] lg:bg-[#f3f0fe] lg:pt-[2rem] price-box">
               <h2 className="pricing-box-title">Free</h2>
-              <p className="text-[1rem] text-[#808080] py-8 font-bold lg:text-[0.8rem] lg:py-4 lg:font-light lg:tracking-wide">
+              <p className="text-[1rem] text-[#808080] py-8 font-[500] lg:text-[0.8rem] lg:py-4 lg:font-light lg:tracking-wide">
                 Ideal for beginners who want to test the waters with simple
                 budgeting tools.
               </p>
@@ -97,7 +97,7 @@ const pricing = () => {
                 <div className="sub-border-div">
                   <p className="text-[#595959] text-[1rem] ml-[1rem] lg:text-[0.8rem]">
                     &#8358;
-                    <span className="pl-1 font-extrabold text-[#272727] text-[3rem] lg:text-[1.5rem]">
+                    <span className="pl-1 font-bold text-[#272727] text-[3rem] lg:text-[1.5rem]">
                       0
                     </span>
                   </p>
@@ -112,7 +112,7 @@ const pricing = () => {
                     <div className="bg-[#8a66f1] rounded-full inline-flex items-center justify-center">
                       <FaCheck className=" off-white-check m-2 text-[0.7rem] text-[#ffff] lg:text-[0.5rem] lg:m-1.5" />
                     </div>
-                    <p className="text-[1rem] text-[#595959] tracking-wide font-bold lg:text-[0.8rem] lg:font-light lg:tracking-wider">
+                    <p className="text-[1rem] text-[#595959] tracking-wide font-[500] lg:text-[0.8rem] lg:font-light lg:tracking-wider">
                       Customizable Budgets
                     </p>
                   </div>
@@ -120,7 +120,7 @@ const pricing = () => {
                     <div className="bg-[#8a66f1] rounded-full inline-flex items-center justify-center">
                       <FaCheck className=" off-white-check m-2 text-[0.7rem] text-[#ffff] lg:text-[0.5rem] lg:m-1.5" />
                     </div>
-                    <p className="text-[1rem] text-[#595959] tracking-wide font-bold lg:text-[0.8rem] lg:font-light lg:tracking-wider">
+                    <p className="text-[1rem] text-[#595959] tracking-wide font-[500] lg:text-[0.8rem] lg:font-light lg:tracking-wider">
                       Savings Goal Tracker
                     </p>
                   </div>
@@ -128,7 +128,7 @@ const pricing = () => {
                     <div className="bg-[#8a66f1] rounded-full inline-flex items-center justify-center">
                       <FaCheck className=" off-white-check m-2 text-[0.7rem] text-[#ffff] lg:text-[0.5rem] lg:m-1.5" />
                     </div>
-                    <p className="text-[1rem] text-[#595959] tracking-wide font-bold lg:text-[0.8rem] lg:font-light lg:tracking-wider">
+                    <p className="text-[1rem] text-[#595959] tracking-wide font-[500] lg:text-[0.8rem] lg:font-light lg:tracking-wider">
                       Basic Customer Support
                     </p>
                   </div>
@@ -138,12 +138,12 @@ const pricing = () => {
             <div className="bg-[#7c5cd9] w-[85vw] h-[80vh] rounded-3xl pt-[3rem] px-[1.2rem] lg:w-[25vw] lg:h-[70vh] lg:pt-[2rem] price-box">
               <div className="flex standard-box">
                 <h2 className="pricing-box-title-purple">Standard</h2>
-                <p className="text-[#ffff] text-[0.8rem] lg:text-[0.8rem]">
+                <p className="text-[#ffff] text-[0.9rem] lg:text-[0.8rem]">
                   Recommended
                 </p>
               </div>
 
-              <p className="text-[1rem] text-[#ffff] py-8 font-bold lg:text-[0.8rem] lg:py-4 lg:font-light lg:tracking-wide">
+              <p className="text-[1rem] text-[#ffff] py-8 font-[500] lg:text-[0.8rem] lg:py-4 lg:font-light lg:tracking-wide">
                 For users looking to take control of their finances with
                 data-driven insights
               </p>
@@ -151,7 +151,7 @@ const pricing = () => {
                 <div className="sub-border-div-purple">
                   <p className="text-[#ffff] text-[1rem] lg:text-[0.8rem]">
                     &#8358;
-                    <span className="pl-1 font-extrabold text-[#ffff] text-[2rem] lg:text-[1.5rem]">
+                    <span className="pl-1 font-bold text-[#ffff] text-[2rem] lg:text-[1.5rem]">
                       {toggled ? '25,000' : '2,500'}
                     </span>
                   </p>
@@ -166,7 +166,7 @@ const pricing = () => {
                     <div className="bg-[#ffff] rounded-full inline-flex items-center justify-center">
                       <FaCheck className=" off-white-check m-2 text-[0.7rem] text-[#8a66f1]  lg:text-[0.5rem] lg:m-1.5" />
                     </div>
-                    <p className="text-[1rem] text-[#ffff] tracking-wide font-bold lg:text-[0.8rem] lg:font-light lg:tracking-wider">
+                    <p className="text-[1rem] text-[#ffff] tracking-wide font-[500] lg:text-[0.8rem] lg:font-light lg:tracking-wider">
                       All Free Plans
                     </p>
                   </div>
@@ -174,7 +174,7 @@ const pricing = () => {
                     <div className="bg-[#ffff] rounded-full inline-flex items-center justify-center">
                       <FaCheck className=" off-white-check m-2 text-[0.7rem] text-[#8a66f1]  lg:text-[0.5rem] lg:m-1.5" />
                     </div>
-                    <p className="text-[1rem] text-[#ffff] tracking-wide font-bold lg:text-[0.8rem] lg:font-light lg:tracking-wider">
+                    <p className="text-[1rem] text-[#ffff] tracking-wide font-[500] lg:text-[0.8rem] lg:font-light lg:tracking-wider">
                       Spending Insights
                     </p>
                   </div>
@@ -182,7 +182,7 @@ const pricing = () => {
                     <div className="bg-[#ffff] rounded-full inline-flex items-center justify-center">
                       <FaCheck className=" off-white-check m-2 text-[0.7rem] text-[#8a66f1]  lg:text-[0.5rem] lg:m-1.5" />
                     </div>
-                    <p className="text-[1rem] text-[#ffff] tracking-wide font-bold lg:text-[0.8rem] lg:font-light lg:tracking-wider">
+                    <p className="text-[1rem] text-[#ffff] tracking-wide font-[500] lg:text-[0.8rem] lg:font-light lg:tracking-wider">
                       Savings Recommendation
                     </p>
                   </div>
@@ -190,7 +190,7 @@ const pricing = () => {
                     <div className="bg-[#ffff] rounded-full inline-flex items-center justify-center">
                       <FaCheck className=" off-white-check m-2 text-[0.7rem] text-[#8a66f1]  lg:text-[0.5rem] lg:m-1.5" />
                     </div>
-                    <p className="text-[1rem] text-[#ffff] tracking-wide font-bold lg:text-[0.8rem] lg:font-light lg:tracking-wider">
+                    <p className="text-[1rem] text-[#ffff] tracking-wide font-[500] lg:text-[0.8rem] lg:font-light lg:tracking-wider">
                       Advanced Customer Support
                     </p>
                   </div>
@@ -199,7 +199,7 @@ const pricing = () => {
             </div>
             <div className="bg-[#e0e0e0] w-[85vw] h-[80vh] rounded-3xl pt-[3rem] px-[1.2rem] lg:w-[25vw] lg:h-[70vh] lg:bg-[#f3f0fe] lg:pt-[2rem] price-box">
               <h2 className="pricing-box-title">Premium</h2>
-              <p className="text-[1rem] text-[#808080] py-8 font-bold lg:text-[0.8rem] lg:py-4 lg:font-light lg:tracking-wide">
+              <p className="text-[1rem] text-[#808080] py-8 font-[500] lg:text-[0.8rem] lg:py-4 lg:font-light lg:tracking-wide">
                 Best for users ready to invest in their financial health with
                 enhanced support
               </p>
@@ -207,7 +207,7 @@ const pricing = () => {
                 <div className="sub-border-div">
                   <p className="text-[#595959] text-[1rem] lg:text-[0.8rem]">
                     &#8358;
-                    <span className="pl-1 font-extrabold text-[#272727] text-[2rem] lg:text-[1.5rem]">
+                    <span className="pl-1 font-bold text-[#272727] text-[2rem] lg:text-[1.5rem]">
                       {toggled ? '43,000' : '4,000'}
                     </span>
                   </p>
@@ -222,7 +222,7 @@ const pricing = () => {
                     <div className="bg-[#8a66f1] rounded-full inline-flex items-center justify-center">
                       <FaCheck className=" off-white-check m-2 text-[0.7rem] text-[#ffff] lg:text-[0.5rem] lg:m-1.5" />
                     </div>
-                    <p className="text-[1rem] text-[#595959] tracking-wide font-bold lg:text-[0.8rem] lg:font-light lg:tracking-wider">
+                    <p className="text-[1rem] text-[#595959] tracking-wide font-[500] lg:text-[0.8rem] lg:font-light lg:tracking-wider">
                       All Standard Plan
                     </p>
                   </div>
@@ -230,7 +230,7 @@ const pricing = () => {
                     <div className="bg-[#8a66f1] rounded-full inline-flex items-center justify-center">
                       <FaCheck className=" off-white-check m-2 text-[0.7rem] text-[#ffff] lg:text-[0.5rem] lg:m-1.5" />
                     </div>
-                    <p className="text-[1rem] text-[#595959] tracking-wide font-bold lg:text-[0.8rem] lg:font-light lg:tracking-wider">
+                    <p className="text-[1rem] text-[#595959] tracking-wide font-[500] lg:text-[0.8rem] lg:font-light lg:tracking-wider">
                       Personalized Insights
                     </p>
                   </div>
@@ -238,7 +238,7 @@ const pricing = () => {
                     <div className="bg-[#8a66f1] rounded-full inline-flex items-center justify-center">
                       <FaCheck className=" off-white-check m-2 text-[0.7rem] text-[#ffff] lg:text-[0.5rem] lg:m-1.5" />
                     </div>
-                    <p className="text-[1rem] text-[#595959] tracking-wide font-bold lg:text-[0.8rem] lg:font-light lg:tracking-wider">
+                    <p className="text-[1rem] text-[#595959] tracking-wide font-[500] lg:text-[0.8rem] lg:font-light lg:tracking-wider">
                       Exportable Reports
                     </p>
                   </div>
@@ -246,7 +246,7 @@ const pricing = () => {
                     <div className="bg-[#8a66f1] rounded-full inline-flex items-center justify-center">
                       <FaCheck className=" off-white-check m-2 text-[0.7rem] text-[#ffff] lg:text-[0.5rem] lg:m-1.5" />
                     </div>
-                    <p className="text-[1rem] text-[#595959] tracking-wide font-bold lg:text-[0.8rem] lg:font-light lg:tracking-wider">
+                    <p className="text-[1rem] text-[#595959] tracking-wide font-[500] lg:text-[0.8rem] lg:font-light lg:tracking-wider">
                       Customer Support 24/7
                     </p>
                   </div>
@@ -254,7 +254,6 @@ const pricing = () => {
               </div>
             </div>
           </div>
-          <div className="annually"></div>
         </div>
       </div>
     </section>

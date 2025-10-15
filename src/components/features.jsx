@@ -106,7 +106,7 @@ const Features = () => {
               </p>
             </div>
             <div className="flex flex-col gap-6 mt-4 items-center">
-              <h2 className="text-[#595959] text-[1.48rem] font-[500] text-center md:text-[1.68rem] lg:text-[1.8rem] xl:text-[2.1rem] amazing">
+              <h2 className="text-[#595959] text-[1.48rem] font-[500] text-center md:text-[1.68rem] lg:text-[1.8rem] xl:text-[2.1rem] lg:font-[600] amazing">
                 Amazing features to help
                 <br className="block lg:hidden" /> you
                 <br className="hidden lg:flex" /> manage your money
@@ -235,7 +235,7 @@ const Features = () => {
         </div>
         <div className="mt-8 lg:mt-0 bg-[#f7f3f3] rounded-3xl px-[0.5rem] py-[3rem] w-[90vw] lg:w-[80vw] mx-auto">
           <div>
-            <h2 className="text-[#595959] font-[700] text-[1.6rem] text-center lg:text-[1.7rem] ">
+            <h2 className="text-[#595959] font-[600] text-[1.6rem] text-center lg:text-[1.7rem] ">
               Get Started
             </h2>
           </div>

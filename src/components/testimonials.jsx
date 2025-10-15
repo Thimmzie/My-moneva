@@ -90,15 +90,15 @@ const testimonials = () => {
     <section id="reviews">
       <div className="mb-[15rem]">
         <div className="w-fit mx-auto">
-          <p className="px-5 py-1 mon-sec-head lg:text-[0.7rem] font-bold lg:font-light">
+          <p className="px-5 py-1 mon-sec-head lg:text-[0.7rem] font-[500] lg:font-light">
             Testimonials
           </p>
         </div>
         <div className="flex flex-col gap-6 mt-4 items-center">
-          <h2 className="text-[#595959] text-[1.48rem] font-extrabold text-center md:text-[1.68rem] lg:text-[1.8rem] xl:text-[2.1rem] testimnial-amazing">
+          <h2 className="text-[#595959] text-[1.48rem] font-[500] text-center md:text-[1.68rem] lg:text-[1.8rem] xl:text-[2.1rem] testimnial-amazing">
             What people say about us
           </h2>
-          <p className="text-[#8f8f8f] text-center text-[1rem] md:text-[1.2rem] lg:text-[1.2rem] xl:text-[1.2rem] testimnial-maximize font-bold lg:font-[500] mx-2">
+          <p className="text-[#8f8f8f] text-center text-[1rem] md:text-[1.2rem] lg:text-[1.2rem] xl:text-[1.2rem] testimnial-maximize font-[500] lg:font-[500] mx-2">
             Don’t just take our word for it hear from our users about their
             <br className="hidden sm:block lg:block"></br> experience with
             moneva
@@ -154,66 +154,65 @@ const testimonials = () => {
               noSwipingClass="swiper-no-swiping"
             >
               <SwiperSlide className="swiper-no-swiping">
-                <div className="bg-[#ffff] w-[68%] h-[40vh] review-box mx-auto mt-[28rem] mb-[2rem] flex flex-col items-center justify-center gap-3 px-6 sm:w-[65%] md:px-[3rem] lg:w-[40%] lg:h-[40vh] lg:mt-[22rem]">
-                  <p className="text-[#595959] font-[500] tracking-wide  text-[0.8rem] text-center leading-7 lg:text-[0.9rem]">
+                <div className="bg-[#ffff] w-[68%] py-[1.5rem] review-box mx-auto mt-[28rem] mb-[2rem] flex flex-col items-center justify-center gap-3 px-6 sm:w-[65%] md:px-[3rem] lg:w-[40%] lg:h-[40vh] lg:mt-[22rem]">
+                  <p className="text-[#595959] font-[500] tracking-wide  text-[0.9rem] text-center leading-7 lg:text-[0.9rem]">
                     Moneva has completely transformed how I manage my finances.
                     The AI-powered budgeting tools make it so easy to set
-                    realistic limits and stick to them, while the predictive
-                    alerts help me avoid overspending
+                    realistic limits and stick to them.
                   </p>
-                  <h4 className="text-[#2b2929] font-bold text-[1rem]">
+                  <h4 className="text-[#2b2929] font-[600] text-[1rem]">
                     Adetayo Johnson
                   </h4>
                   <img src={Star} />
                 </div>
               </SwiperSlide>
               <SwiperSlide className="swiper-no-swiping">
-                <div className="bg-[#ffff] w-[68%] h-[40vh] review-box mx-auto mt-[28rem] mb-[2rem] flex flex-col items-center justify-center gap-3 px-6 sm:w-[65%] md:px-[3rem] lg:w-[40%] lg:h-[40vh] lg:mt-[22rem]">
-                  <p className="text-[#595959] font-[500] tracking-wide  text-[0.8rem] text-center leading-7 lg:text-[0.9rem]">
+                <div className="bg-[#ffff] w-[68%] py-[1.5rem] review-box mx-auto mt-[28rem] mb-[2rem] flex flex-col items-center justify-center gap-3 px-6 sm:w-[65%] md:px-[3rem] lg:w-[40%] lg:h-[40vh] lg:mt-[22rem]">
+                  <p className="text-[#595959] font-[500] tracking-wide  text-[0.9rem] text-center leading-7 lg:text-[0.9rem]">
                     Moneva makes tracking my daily expenses effortless. The
                     clean interface lets me see exactly where my money is going,
                     and the custom categories keep everything organized.
                   </p>
-                  <h4 className="text-[#2b2929] font-bold text-[1rem]">
+                  <h4 className="text-[#2b2929] font-[600] text-[1rem]">
                     Daniel Ezinne
                   </h4>
                   <img src={Star} />
                 </div>
               </SwiperSlide>
               <SwiperSlide className="swiper-no-swiping">
-                <div className="bg-[#ffff] w-[68%] h-[40vh] review-box mx-auto mt-[28rem] mb-[2rem] flex flex-col items-center justify-center gap-3 px-6 sm:w-[65%] md:px-[3rem] lg:w-[40%] lg:h-[40vh] lg:mt-[22rem] ">
-                  <p className="text-[#595959] font-[500] tracking-wide  text-[0.8rem] text-center leading-7 lg:text-[0.9rem]">
+                <div className="bg-[#ffff] w-[68%] py-[1.5rem] review-box mx-auto mt-[28rem] mb-[2rem] flex flex-col items-center justify-center gap-3 px-6 sm:w-[65%] md:px-[3rem] lg:w-[40%] lg:h-[40vh] lg:mt-[22rem] ">
+                  <p className="text-[#595959] font-[500] tracking-wide  text-[0.9rem] text-center leading-7 lg:text-[0.9rem]">
                     Since I started using Moneva, I’ve been able to save more
                     each month. The real-time updates and AI-driven insights
                     give me clarity and confidence in my financial decisions.
                   </p>
-                  <h4 className="text-[#2b2929] font-bold text-[1rem]">
+                  <h4 className="text-[#2b2929] font-[600] text-[1rem]">
                     Mercy Odubona
                   </h4>
                   <img src={Star} />
                 </div>
               </SwiperSlide>
               <SwiperSlide className="swiper-no-swiping">
-                <div className="bg-[#ffff] w-[68%] h-[40vh] review-box mx-auto mt-[28rem] mb-[2rem] flex flex-col items-center justify-center gap-3 px-6 sm:w-[65%] md:px-[3rem] lg:w-[40%] lg:h-[40vh] lg:mt-[22rem]">
-                  <p className="text-[#595959] font-[500] tracking-wide  text-[0.8rem] text-center leading-7 lg:text-[0.9rem]">
+                <div className="bg-[#ffff] w-[68%] py-[1.5rem] review-box mx-auto mt-[28rem] mb-[2rem] flex flex-col items-center justify-center gap-3 px-6 sm:w-[65%] md:px-[3rem] lg:w-[40%] lg:h-[40vh] lg:mt-[22rem]">
+                  <p className="text-[#595959] font-[500] tracking-wide  text-[0.9rem] text-center leading-7 lg:text-[0.9rem]">
                     I love how Moneva turns complex budgeting into something
                     simple. Setting financial goals and actually sticking to
                     them has never been this easy or stress-free.
                   </p>
-                  <h4 className="text-[#2b2929] font-bold text-[1rem]">
+                  <h4 className="text-[#2b2929] font-[600] text-[1rem]">
                     Emeka Peters
                   </h4>
                   <img src={Star} />
                 </div>
               </SwiperSlide>
               <SwiperSlide className="swiper-no-swiping">
-                <div className="bg-[#ffff] w-[68%] h-[40vh] review-box mx-auto mt-[28rem] mb-[2rem] flex flex-col items-center justify-center gap-3 px-6 sm:w-[65%] md:px-[3rem] lg:w-[40%] lg:h-[40vh] lg:mt-[22rem] ">
-                  <p className="text-[#595959] font-bold tracking-wide  text-[0.8rem] text-center leading-7 lg:text-[0.9rem]">
+                <div className="bg-[#ffff] w-[68%] py-[1.5rem] review-box mx-auto mt-[28rem] mb-[2rem] flex flex-col items-center justify-center gap-3 px-6 sm:w-[65%] md:px-[3rem] lg:w-[40%] lg:h-[40vh] lg:mt-[22rem] ">
+                  <p className="text-[#595959] font-[500] tracking-wide  text-[0.9rem] text-center leading-7 lg:text-[0.9rem]">
                     Moneva gives me peace of mind with its predictive alerts and
                     smart reminders. I no longer worry about overspending
                     because I always know what’s ahead.
                   </p>
-                  <h4 className="text-[#2b2929] font-bold text-[1rem]">
+                  <h4 className="text-[#2b2929] font-[600] text-[1rem]">
                     Ruth Danjuma
                   </h4>
                   <img src={Star} />
