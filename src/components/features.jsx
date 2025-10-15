@@ -235,7 +235,7 @@ const Features = () => {
         </div>
         <div className="mt-8 lg:mt-0 bg-[#f7f3f3] rounded-3xl px-[0.5rem] py-[3rem] w-[90vw] lg:w-[80vw] mx-auto">
           <div>
-            <h2 className="text-[#595959] font-[600] text-[1.6rem] text-center lg:text-[1.7rem] ">
+            <h2 className="text-[#595959] font-[500] text-[1.6rem] text-center lg:text-[1.7rem] ">
               Get Started
             </h2>
           </div>

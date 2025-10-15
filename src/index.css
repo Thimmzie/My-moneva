@@ -309,7 +309,7 @@ body {
   width: 50%;
   text-align: center;
   pointer-events: none;
-  font-size: 1rem;
+  font-size: 0.8rem;
   letter-spacing: 0.1rem;
 }
 .toggle-btn .label-month {
