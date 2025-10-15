@@ -57,14 +57,14 @@ const hero = () => {
     <section>
       <div className="flex flex-col items-center mt-20 gap-4 md:mt-13">
         <h2
-          className="text-[#fefefe] text-[1.8rem] font-[900] text-center md:text-[2.3rem] lg:text-[3rem] mt-[3.9rem] "
+          className="text-[#fefefe] text-[2rem] font-[700] text-center md:text-[2.3rem] lg:text-[3rem] mt-[3.9rem] "
           id="heading"
         >
           Take Control of Your
           <span className="block text-center">Finances with Moneva</span>
         </h2>
         <p
-          className="text-[#c3c1c8] text-center text-[1rem] md:text-[1.1rem] lg:text-[1rem] font-light"
+          className="text-[#c3c1c8] text-center text-[1.1rem] md:text-[1.1rem] lg:text-[1rem] font-light"
           id="body"
         >
           Your all-in-one tool for managing budgets,

@@ -101,12 +101,12 @@ const Features = () => {
         <div className="mb-[55rem] mt-16 lg:mb-[48rem]">
           <div className="w-fit mx-auto mb-13">
             <div className="w-fit mx-auto">
-              <p className="px-5 py-1 mon-sec-head lg:text-[0.7rem] font-bold lg:font-light">
+              <p className="px-5 py-1 mon-sec-head lg:text-[0.7rem] font-light lg:font-light">
                 Features
               </p>
             </div>
             <div className="flex flex-col gap-6 mt-4 items-center">
-              <h2 className="text-[#595959] text-[1.48rem] font-bold text-center md:text-[1.68rem] lg:text-[1.8rem] xl:text-[2.1rem] amazing">
+              <h2 className="text-[#595959] text-[1.48rem] font-[500] text-center md:text-[1.68rem] lg:text-[1.8rem] xl:text-[2.1rem] amazing">
                 Amazing features to help
                 <br className="block lg:hidden" /> you
                 <br className="hidden lg:flex" /> manage your money
@@ -132,7 +132,7 @@ const Features = () => {
                   <h2 className="text-[#595959] text-[1.3rem] font-bold tracking-wide md:text-[1.3rem] md:mt-20 lg:mt-10 md:text-center lg:text-[1.3rem] ">
                     Budgeting Made Easy
                   </h2>
-                  <p className="text-[#8f8f8f] font-bold lg:font-light mt-3.5 text-[1.1rem] tracking-wide md:text-[1rem] lg:text-[1rem]">
+                  <p className="text-[#595959] font-light lg:font-light mt-3.5 text-[1.1rem] tracking-wide md:text-[1rem] lg:text-[1rem]">
                     Track your spending by category and
                     <br className="hidden md:block"></br> set spending
                     <br className="hidden"></br> limits with progress alerts
