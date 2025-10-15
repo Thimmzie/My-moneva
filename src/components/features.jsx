@@ -160,7 +160,7 @@ const Features = () => {
                   <h2 className="text-[#595959] text-[1.3rem] font-bold tracking-wide md:text-[1.3rem] lg:text-[1.3rem] md:mt-20">
                     Savings Goals
                   </h2>
-                  <p className="text-[#8f8f8f] font-bold lg:font-light mt-3.5 text-[1.1rem] tracking-wide md:text-[1.2rem] lg:text-[1rem]">
+                  <p className="text-[#595959] font-[500] lg:font-light mt-3.5 text-[1.1rem] tracking-wide md:text-[1.2rem] lg:text-[1rem]">
                     Set and track your savings with
                     <br className="hidden md:block"></br> personalized
                     <br className="hidden"></br> recommendations to
